@@ -1,0 +1,12 @@
+lxml
+requests
+pandas
+xlrd
+xlsxwriter
+SPARQLWrapper
+sickle
+pymods
+polymatheia>=0.1.1,<0.2.0
+scipy
+seaborn
+bs4
