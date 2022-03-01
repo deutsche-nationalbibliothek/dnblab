@@ -879,7 +879,7 @@ elif confirm and searchterm:
     df = table()
     
     #st.session_state["df"]=df 
-    #st.dataframe(df)
+    st.dataframe(df)
 
     def convert_df(df): 
         return df.to_csv().encode('utf-8')
