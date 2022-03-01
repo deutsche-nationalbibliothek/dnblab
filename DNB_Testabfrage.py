@@ -801,48 +801,40 @@ def parse_record_dmardf(record):
 ## -----------------------------------------------------------------------------
                  
 def table():     
+    #Titeldaten:
     if auswahl == "DNB" and dataform == "oai_dc":
         result = [parse_record_dc(record) for record in records]
         df = pandas.DataFrame(result)  
-        #st.dataframe(df)
     elif auswahl == "DNB" and dataform == "MARC21-xml":
         result2 = [parse_record_marc(item) for item in records_marc]
         df = pandas.DataFrame(result2)      
-        st.dataframe(df)
     elif auswahl == "DNB" and dataform == "RDFxml":
         result3 = [parse_record_rdf(item) for item in records]
         df = pandas.DataFrame(result3)    
-        #st.dataframe(df)
 
-    #für GND:
+    #GND:
     elif auswahl == "GND" and dataform == "MARC21-xml":
         result4 = [parse_record_gndm(item) for item in gndm]
         df = pandas.DataFrame(result4)                            
-        #st.dataframe(df)
     elif auswahl == "GND" and dataform == "oai_dc":
         result5 = [parse_record_gndoai(item) for item in records]
         df = pandas.DataFrame(result5)
         st.write('Bitte beachten Sie, dass sich das Format "DNB Casual (oai_dc)" nur bedingt für GND-Datensätze eignet.')
         st.write('Für eine Darstellung mit mehr Informationen wählen Sie bitte das Format "MARC21-xml".')
-        #st.dataframe(df)
     elif auswahl == "GND" and dataform == "RDFxml":
         result6 = [parse_record_gndrdf(item) for item in records]
         df = pandas.DataFrame(result6)     
-        #st.dataframe(df)
         
-        #für DMA:
+    #DMA:
     elif auswahl == "DMA" and dataform == "MARC21-xml":
         result7 = [parse_record_dmamarc(item) for item in records_marc]
         df = pandas.DataFrame(result7)                           
-        #st.dataframe(df)
     elif auswahl == "DMA" and dataform == "oai_dc":
         result8 = [parse_record_dmadc(record) for record in records]
         df = pandas.DataFrame(result8)
-        #st.dataframe(df)
     elif auswahl == "DMA" and dataform == "RDFxml":
         result9 = [parse_record_dmardf(record) for record in records]
         df = pandas.DataFrame(result9)
-        #st.dataframe(df)
     
     else:
         st.write("Es wurde noch keine Suchanfrage gestellt.")
