@@ -861,6 +861,9 @@ if confirm and not searchterm:
 elif confirm and searchterm:
 
     st.markdown("##### Ausgeben und Speichern der Daten:")
+    
+    st.info("Bitte beachten Sie: Ein Klick auf einen der Download-Buttons setzt die Anzeige zurück. Um die Anzeige und Downloadmöglichkeiten weiterhin zu "
+            "nutzen, klicken Sie einfach erneut auf 'Los!' und führen Ihre Suche noch einmal aus.") 
 
     st.download_button(
         label="Download XML",
@@ -918,7 +921,7 @@ text-align: center;
 </style>
 <div class="footer">
 <br><br><br>
-<p>Zuletzt aktualisiert am: 04.02.2022</a></p>
+<p>Zuletzt aktualisiert am: 01.03.2022</a></p>
 </div>
 """
 
