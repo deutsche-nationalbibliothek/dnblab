@@ -109,7 +109,7 @@ if confirm and searchterm:
         st.markdown("##### Anzeige des ersten Treffers der SRU_Antwort:")    
         vorschau = records[0]
         with st.expander("Vorschau anzeigen"):
-            st.code(vorschau)
+            st.code(vorschau.prettify())
     else: 
         st.write("Keine Treffer vorhanden")
 
