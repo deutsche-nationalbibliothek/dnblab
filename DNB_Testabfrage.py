@@ -112,6 +112,8 @@ if confirm and searchterm:
         vorschau = records[0]
         with st.expander("Vorschau anzeigen"):
             st.code(vorschau.prettify())
+        with st.expander("Anzeige der abfragten URL"):
+            st.write(r1.url)
     else: 
         st.write("Keine Treffer vorhanden")
 
