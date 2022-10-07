@@ -3,12 +3,14 @@
 ## Bibliotheken:
 import streamlit as st
 import requests
-from IPython.display import display, clear_output
+#from IPython.display import display, clear_output
 from bs4 import BeautifulSoup
 from lxml import etree
 import pandas
 import unicodedata
 from IPython.core.display import display, HTML
+
+st.set_page_config(page_title='DNB Testabfrage')
 
 if 'letsgo' not in st.session_state:
     st.session_state.letsgo = 0
