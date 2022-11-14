@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+df = pd.read_csv("testdata.csv", encoding="utf-8")
+
 
 with st.sidebar:
   st.write("Test test test")
