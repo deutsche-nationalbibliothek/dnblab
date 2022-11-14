@@ -13,3 +13,5 @@ bs4
 nltk
 voila
 plotly
+folium
+streamlit_folium
