@@ -11,4 +11,4 @@ with st.sidebar:
 
 st.header("DNB-Hackathon: Exil-Monographien") 
 
-st.table(df)
+st.dataframe(df)
