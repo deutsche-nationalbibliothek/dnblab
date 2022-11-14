@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 #import folium
 #from folium.plugins import MarkerCluster
-import streamlit_folium
+#import streamlit_folium
 
 
 
@@ -16,7 +16,7 @@ with st.sidebar:
 
 st.header("DNB-Hackathon: Exil-Monographien") 
 
-m = folium.Map(df, zoom_start=5)
-marker_cluster = MarkerCluster().add_to(m)
+#m = folium.Map(df, zoom_start=5)
+#marker_cluster = MarkerCluster().add_to(m)
 
 st.dataframe(df)
