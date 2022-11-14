@@ -10,3 +10,5 @@ with st.sidebar:
 
 
 st.header("DNB-Hackathon: Exil-Monographien") 
+
+st.dataframe(df)
