@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv("testdata.csv")
+df = pd.read_csv("testdata.csv", encoding="utf-8")
 
 
 with st.sidebar:
@@ -11,4 +11,4 @@ with st.sidebar:
 
 st.header("DNB-Hackathon: Exil-Monographien") 
 
-st.dataframe(df)
+st.table(df)
