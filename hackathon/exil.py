@@ -43,7 +43,7 @@ marker_cluster = MarkerCluster(
 for i in range(0,len(df_query)):
     location = [df_query.iloc[i]['lat'], df_query.iloc[i]['long']]
     marker = folium.Marker(location=location)
-    popup = 'IDN:{}.format(df_query.iloc[i]['idn'])<br>Erscheinungsort:{}'.format(df_query.iloc[i]['Erscheinungsort'])
+    popup = 'Erscheinungsort:{}'.format(df_query.iloc[i]['Erscheinungsort'])
     folium.Popup(popup).add_to(marker)
     marker_cluster.add_child(marker)
 
