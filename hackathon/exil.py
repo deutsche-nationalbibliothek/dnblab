@@ -27,8 +27,8 @@ long=df["long"].values[1]
 st.write("lat: ",lat)
 st.write("long: ", long)
 
-#m = folium.Map(location=[lat, long], zoom_start=5)
-m = folium.Map(location=[df("lat"), df("long")], zoom_start=5)
+m = folium.Map(location=[lat, long], zoom_start=5)
+#m = folium.Map(location=[df("lat"), df("long")], zoom_start=5)
 #m = folium.Map(df, x="long", y="lat", zoom_start=5)
 #m = folium.Map(location=[39.949610, -75.150282], zoom_start=5)
 marker_cluster = MarkerCluster().add_to(m)
