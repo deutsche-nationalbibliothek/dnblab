@@ -51,5 +51,6 @@ folium_static(m)
 st.write("Test") 
 df_map = df.copy()
 df_map = df_map.rename({'long': 'lon'})
+st.dataframe(df_map)
 
 st.map(df_map)
