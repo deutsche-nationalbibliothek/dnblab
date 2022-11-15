@@ -61,6 +61,7 @@ st.map(df_query2)
 st.subheader("Dritte Möglichkeit")
 
 df_test = df[['idn', 'lat', 'long']].copy()
+st.dataframe(df_test)
 
 st.pydeck_chart(pdk.Deck(
     map_style=None,
