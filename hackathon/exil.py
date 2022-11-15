@@ -7,7 +7,9 @@ from streamlit_folium import folium_static
 import pydeck as pdk
 
 
-df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
+#df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
+df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
+
 #st.dataframe(df)
 
 with st.sidebar:
