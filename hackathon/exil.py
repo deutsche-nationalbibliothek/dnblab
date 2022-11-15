@@ -12,7 +12,7 @@ df2 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding
 df = df2.loc[df2['long'] != "<NA>"]
 #df.dropna(subset=['long', 'lat'])
 
-#st.dataframe(df)
+st.dataframe(df)
 
 with st.sidebar:
   st.write("Test test test")
