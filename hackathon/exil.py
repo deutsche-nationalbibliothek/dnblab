@@ -20,3 +20,6 @@ st.header("DNB-Hackathon: Exil-Monographien")
 #marker_cluster = MarkerCluster().add_to(m)
 
 st.dataframe(df)
+
+m = folium.Map(location=[39.949610, -75.150282], zoom_start=5)
+folium_static(m)
