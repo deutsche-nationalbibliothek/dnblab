@@ -42,7 +42,7 @@ for i in range(0,1000):
 
 folium_static(m)
 
-st.write("Anzahl Dätensätze: ", len(df_query))
+st.write("Anzahl Datensätze: ", len(df_query))
 st.dataframe(df_query)
 
 
