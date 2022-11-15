@@ -7,7 +7,7 @@ from streamlit_folium import folium_static
 
 
 
-df = pd.read_csv("hackathon/testdata2.csv", encoding="utf-8")
+df = pd.read_csv("hackathon/testdata1.csv", encoding="utf-8")
 
 
 with st.sidebar:
