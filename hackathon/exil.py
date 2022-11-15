@@ -34,7 +34,7 @@ df_query = df.query("Erscheinungsjahr == @year")
 m = folium.Map(location=[lat, long], zoom_start=2)
 
 marker_cluster = MarkerCluster().add_to(m)
-for i in range(0,1000):
+for i in range(0,len(df_query)):
    folium.Marker(
       location=[df_query.iloc[i]['lat'], df_query.iloc[i]['long']],
       popup=df_query.iloc[i]['Erscheinungsort'],
