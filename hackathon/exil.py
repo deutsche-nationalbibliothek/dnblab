@@ -53,7 +53,7 @@ year2 = st.slider('Wählen Sie eine weitere Jahreszahl', 1933, 1950)
 year2 = str(year2)
 
 df_map = df.rename(columns={'long': 'lon'})
-df_query2 = df_map.query("Erscheinungsjahr == @year")
+df_query2 = df_map.query("Erscheinungsjahr == @year2")
 st.map(df_map)
 
 
