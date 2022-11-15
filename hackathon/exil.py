@@ -24,6 +24,7 @@ st.dataframe(df)
 
 lat=df["lat"].values[1]
 long=df["long"].values[1]
+st.write(lat)
 
 m = folium.Map(location=[lat, long], zoom_start=5)
 #m = folium.Map(location=[df(lat), df(long)], zoom_start=5)
