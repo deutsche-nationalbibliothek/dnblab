@@ -27,7 +27,7 @@ long=df["long"].values[1]
 st.write("lat: ",lat)
 st.write("long: ", long)
 
-m = folium.Map(location=[lat, long], zoom_start=5)
+m = folium.Map(location=[lat, long], zoom_start=3)
 
 marker_cluster = MarkerCluster().add_to(m)
 
@@ -37,7 +37,7 @@ marker_cluster = MarkerCluster().add_to(m)
     #icon=folium.Icon(color="green", icon="ok-sign"),
 #).add_to(marker_cluster)
 
-for i in range(0,100):
+for i in range(0,1000):
    folium.Marker(
       location=[df.iloc[i]['lat'], df.iloc[i]['long']],
       popup=df.iloc[i]['Erscheinungsort'],
