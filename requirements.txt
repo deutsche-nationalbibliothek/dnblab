@@ -15,3 +15,5 @@ voila
 plotly
 folium
 streamlit_folium
+pydeck
+math
