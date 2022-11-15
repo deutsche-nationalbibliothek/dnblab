@@ -36,7 +36,7 @@ with st.expander("Über diese App"):
              " Jörn Hasenclever.")
     #st.image("https://static.streamlit.io/examples/dice.jpg")
 
-st.subheader("Erste Möglichkeit:")
+
 
 lat=df["lat"].values[1]
 long=df["long"].values[1]
