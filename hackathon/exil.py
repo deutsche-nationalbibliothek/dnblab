@@ -25,7 +25,6 @@ long=df["long"].values[1]
 
 year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
 year = str(year)
-st.write(year)
 
 df_query = df.query("Erscheinungsjahr == @year")
 
