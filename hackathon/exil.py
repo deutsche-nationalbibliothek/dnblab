@@ -60,6 +60,8 @@ st.map(df_query2)
 
 st.subheader("Dritte Möglichkeit")
 
+df_test = df[['idn', 'lat', 'long']].copy()
+
 st.pydeck_chart(pdk.Deck(
     map_style=None,
     initial_view_state=pdk.ViewState(
@@ -71,7 +73,7 @@ st.pydeck_chart(pdk.Deck(
     layers=[
         pdk.Layer(
             'ScatterplotLayer',
-            data=df,
+            data=df_test,
             get_position='[long, lat]',
             get_color='[200, 30, 0, 160]',
             get_radius=200,
