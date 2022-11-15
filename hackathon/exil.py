@@ -54,6 +54,8 @@ year2 = str(year2)
 
 df_map = df.rename(columns={'long': 'lon'})
 df_query2 = df_map.query("Erscheinungsjahr == @year2")
-st.map(df_map)
+st.map(df_query2)
+
+
 
 
