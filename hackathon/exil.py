@@ -73,6 +73,16 @@ st.pydeck_chart(pdk.Deck(
     ),
     layers=[
         pdk.Layer(
+           'HexagonLayer',
+           data=df_test,
+           get_position='[long, lat]',
+           radius=200,
+           elevation_scale=4,
+           elevation_range=[0, 1000],
+           pickable=True,
+           extruded=True,
+        ),  
+        pdk.Layer(
             'ScatterplotLayer',
             data=df_test,
             get_position='[long, lat]',
