@@ -56,5 +56,4 @@ st.pydeck_chart(pdk.Deck(
             get_color='[200, 30, 0, 160]',
             get_radius=200,
         ),
-    ],
-))
+    ))
