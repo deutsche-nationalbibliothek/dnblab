@@ -49,7 +49,11 @@ st.dataframe(df_query)
 # -- KARTE2
 st.subheader("Zweite Möglichkeit") 
 
+year2 = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
+year2 = str(year2)
+
 df_map = df.rename(columns={'long': 'lon'})
+df_query2 = df_map.query("Erscheinungsjahr == @year")
 st.map(df_map)
 
 
