@@ -16,7 +16,7 @@ with st.sidebar:
 
 
 st.header("DNB-Hackathon: Exil-Monographien") 
-
+st.subheader("Erste Möglichkeit:")
 
 #marker_cluster = MarkerCluster().add_to(m)
 
@@ -28,12 +28,6 @@ st.write("lat: ",lat)
 st.write("long: ", long)
 
 m = folium.Map(location=[lat, long], zoom_start=5)
-#m = folium.Map(location=[df("lat"), df("long")], zoom_start=5)
-#m = folium.Map(df, x="long", y="lat", zoom_start=5)
-#m = folium.Map(location=[39.949610, -75.150282], zoom_start=5)
-
-
-
 
 marker_cluster = MarkerCluster().add_to(m)
 
@@ -43,13 +37,10 @@ folium.Marker(
     icon=folium.Icon(color="green", icon="ok-sign"),
 ).add_to(marker_cluster)
 
-
-
 folium_static(m)
 
 
-st.write("Test") 
+st.subheader("Zweie Möglichkeit") 
 df_map = df.rename(columns={'long': 'lon'})
-st.dataframe(df_map)
 
 st.map(df_map)
