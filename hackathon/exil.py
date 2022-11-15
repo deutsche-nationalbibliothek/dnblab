@@ -33,12 +33,27 @@ df_query = df.query("Erscheinungsjahr == @year")
 #-- KARTE1 
 m = folium.Map(location=[lat, long], zoom_start=2)
 
-marker_cluster = MarkerCluster().add_to(m)
-for i in range(0,len(df_query)):
-   folium.Marker(
-      location=[df_query.iloc[i]['lat'], df_query.iloc[i]['long']],
-      popup=df_query.iloc[i]['Erscheinungsort'],
-   ).add_to(m)
+marker_cluster = MarkerCluster(
+    name='1000 clustered icons',
+    overlay=True,
+    control=False,
+    icon_create_function=None
+)
+
+for k in range(0,len(df_query)):
+    location = [df_query.iloc[i]['lat'], df_query.iloc[i]['long']]
+    marker = folium.Marker(location=location)
+    popup = 'IDN:{}.format(df_query.iloc[i]['idn'])<br>Erscheinungsort:{}'.format(df_query.iloc[i]['Erscheinungsort'])
+    folium.Popup(popup).add_to(marker)
+    marker_cluster.add_child(marker)
+
+
+#marker_cluster = MarkerCluster().add_to(m)
+#for i in range(0,len(df_query)):
+#   folium.Marker(
+#      location=[df_query.iloc[i]['lat'], df_query.iloc[i]['long']],
+#      popup=df_query.iloc[i]['Erscheinungsort'],
+#   ).add_to(m)
 
 folium_static(m)
 
