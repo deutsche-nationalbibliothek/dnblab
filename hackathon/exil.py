@@ -8,8 +8,8 @@ import pydeck as pdk
 
 
 #df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
-df0 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
-df = df0(df0["lat"] != "NaN")
+df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
+df.dropna(subset=['long', 'lat'])
 
 #st.dataframe(df)
 
