@@ -3,6 +3,7 @@ import pandas as pd
 import folium
 from folium.plugins import MarkerCluster
 import streamlit_folium
+from streamlit_folium import folium_static
 
 
 
