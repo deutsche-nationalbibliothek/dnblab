@@ -40,7 +40,7 @@ folium.Marker(
 folium_static(m)
 
 
-st.subheader("Zweie Möglichkeit") 
+st.subheader("Zweite Möglichkeit") 
 df_map = df.rename(columns={'long': 'lon'})
 
 st.map(df_map)
