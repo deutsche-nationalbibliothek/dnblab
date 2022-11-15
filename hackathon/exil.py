@@ -21,6 +21,10 @@ with st.sidebar:
 st.header("DNB-Hackathon: Exil-Monographien") 
 st.subheader("Erste Möglichkeit:")
 
+select = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
+st.write(select)
+
+
 
 lat=df["lat"].values[1]
 long=df["long"].values[1]
