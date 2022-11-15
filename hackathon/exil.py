@@ -4,6 +4,7 @@ import folium
 from folium.plugins import MarkerCluster
 import streamlit_folium
 from streamlit_folium import folium_static
+import pydeck as pdk
 
 
 df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
