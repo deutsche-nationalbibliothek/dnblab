@@ -11,7 +11,7 @@ import pydeck as pdk
 df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
 df.dropna(subset=['long', 'lat'])
 
-#st.dataframe(df)
+st.dataframe(df)
 
 with st.sidebar:
   st.write("Test test test")
