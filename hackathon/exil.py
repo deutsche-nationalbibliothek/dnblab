@@ -16,11 +16,11 @@ with st.sidebar:
 
 st.header("DNB-Hackathon: Exil-Monographien") 
 
-#m = folium.Map(df, x="long", y="lat", zoom_start=5)
+m = folium.Map(df, x="long", y="lat", zoom_start=5)
 #marker_cluster = MarkerCluster().add_to(m)
 
 st.dataframe(df)
 
-m = folium.Map(location=[39.949610, -75.150282], zoom_start=5)
+#m = folium.Map(location=[39.949610, -75.150282], zoom_start=5)
 #folium_static(m)
 st.map(m)
