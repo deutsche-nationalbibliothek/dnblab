@@ -76,7 +76,7 @@ layer = pdk.Layer(
     radius_max_pixels=100,
     line_width_min_pixels=1,
     get_position='[long, lat]',
-    get_radius="exits_radius",
+    get_radius=50,
     get_fill_color=[255, 140, 0],
     get_line_color=[0, 0, 0],
 )
