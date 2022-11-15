@@ -58,4 +58,24 @@ st.map(df_query2)
 
 
 
+st.subheader("Dritte Möglichkeit")
+
+st.pydeck_chart(pdk.Deck(
+    map_style=None,
+    initial_view_state=pdk.ViewState(
+        latitude=lat,
+        longitude=long,
+        zoom=3,
+        pitch=50,
+    ),
+    layers=[
+        pdk.Layer(
+            'ScatterplotLayer',
+            data=df_map,
+            get_position='[lon, lat]',
+            get_color='[200, 30, 0, 160]',
+            get_radius=200,
+        ),
+      ],
+    ))
 
