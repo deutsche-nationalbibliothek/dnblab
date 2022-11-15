@@ -22,7 +22,7 @@ st.header("DNB-Hackathon: Exil-Monographien")
 
 st.dataframe(df)
 
-lat=df("lat")[0]
+lat=df("lat")[0].astype(str)
 long=df("long")[0]
 
 m = folium.Map(location=[lat, long], zoom_start=5)
