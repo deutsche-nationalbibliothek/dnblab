@@ -9,7 +9,7 @@ import pydeck as pdk
 
 #df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
 df2 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
-df = df2.loc[df2['long'] != "<NA>"]
+df = df2.loc[df2['long'] != "NA"]
 #df.dropna(subset=['long', 'lat'])
 
 st.dataframe(df)
