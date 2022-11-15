@@ -22,7 +22,10 @@ st.header("DNB-Hackathon: Exil-Monographien")
 
 st.dataframe(df)
 
-m = folium.Map(df, x="long", y="lat", zoom_start=5)
+
+location=[np.mean(lats), np.mean(lons)]
+m = folium.Map(location=[df(lat), df(long)], zoom_start=5)
+#m = folium.Map(df, x="long", y="lat", zoom_start=5)
 #m = folium.Map(location=[39.949610, -75.150282], zoom_start=5)
 marker_cluster = MarkerCluster().add_to(m)
 folium_static(m)
