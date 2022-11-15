@@ -21,7 +21,7 @@ st.header("DNB-Hackathon: Exil-Monographien")
 st.subheader("Erste Möglichkeit:")
 
 year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
-year = year.astype(str)
+year = str(year)
 st.write(year)
 
 df_query = df.query("Erscheinungsjahr == year")
