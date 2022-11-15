@@ -11,7 +11,6 @@ import pydeck as pdk
 df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
 df = df.dropna(subset="lat")
 
-st.dataframe(df)
 
 with st.sidebar:
   st.write("Test test test")
@@ -21,10 +20,12 @@ with st.sidebar:
 st.header("DNB-Hackathon: Exil-Monographien") 
 st.subheader("Erste Möglichkeit:")
 
-select = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
-st.write(select)
+year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
+year = year.astype(str)
+st.write(year)
 
-
+df_query = df.query("Erscheinungsjahr == year")
+st.dataframe(df_query)
 
 lat=df["lat"].values[1]
 long=df["long"].values[1]
