@@ -33,11 +33,20 @@ df_query = df.query("Erscheinungsjahr == @year")
 #-- KARTE1 
 m = folium.Map(location=[lat, long], zoom_start=2)
 
+icon_create_function = """\
+function(cluster) {
+    return L.divIcon({
+    html: '<b>' + cluster.getChildCount() + '</b>',
+    className: 'marker-cluster marker-cluster-large',
+    iconSize: new L.Point(20, 20)
+    });
+}"""
+
 marker_cluster = MarkerCluster(
     name='1000 clustered icons',
     overlay=True,
     control=False,
-    icon_create_function=None
+    icon_create_function=icon_create_function
 )
 
 for i in range(0,len(df_query)):
