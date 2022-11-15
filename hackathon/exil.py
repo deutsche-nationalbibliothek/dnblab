@@ -37,7 +37,7 @@ marker_cluster = MarkerCluster().add_to(m)
     #icon=folium.Icon(color="green", icon="ok-sign"),
 #).add_to(marker_cluster)
 
-for i in range(0,len(df)):
+for i in range(0,100):
    folium.Marker(
       location=[df.iloc[i]['lat'], df.iloc[i]['long']],
       popup=df.iloc[i]['Erscheinungsort'],
