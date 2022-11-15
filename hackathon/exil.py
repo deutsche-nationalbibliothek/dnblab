@@ -22,8 +22,8 @@ st.header("DNB-Hackathon: Exil-Monographien")
 
 st.dataframe(df)
 
-lat=df["lat"].values[0]
-long=df["long"].values[0]
+lat=df["lat"].values[1]
+long=df["long"].values[1]
 
 m = folium.Map(location=[lat, long], zoom_start=5)
 #m = folium.Map(location=[df(lat), df(long)], zoom_start=5)
