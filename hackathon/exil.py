@@ -8,7 +8,7 @@ import pydeck as pdk
 
 
 df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
-st.dataframe(df)
+#st.dataframe(df)
 
 with st.sidebar:
   st.write("Test test test")
@@ -40,4 +40,14 @@ st.subheader("Zweite Möglichkeit")
 df_map = df.rename(columns={'long': 'lon'})
 st.map(df_map)
 st.dataframe(df_map)
+
+st.pydeck_chart(pdk.Deck(
+    map_style=None,
+    initial_view_state=pdk.ViewState(
+        latitude=37.76,
+        longitude=-122.4,
+        zoom=11,
+        pitch=50,
+    ),
+))
 
