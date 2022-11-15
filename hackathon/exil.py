@@ -46,3 +46,9 @@ folium.Marker(
 
 
 folium_static(m)
+
+
+
+df_map = df(df([lat', 'lon']))
+
+st.map(df_map)
