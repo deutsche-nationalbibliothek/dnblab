@@ -6,9 +6,7 @@ import streamlit_folium
 from streamlit_folium import folium_static
 
 
-
 df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
-
 
 with st.sidebar:
   st.write("Test test test")
@@ -18,32 +16,20 @@ with st.sidebar:
 st.header("DNB-Hackathon: Exil-Monographien") 
 st.subheader("Erste Möglichkeit:")
 
-#marker_cluster = MarkerCluster().add_to(m)
-
-st.dataframe(df)
 
 lat=df["lat"].values[1]
 long=df["long"].values[1]
 st.write("lat: ",lat)
 st.write("long: ", long)
 
-m = folium.Map(location=[lat, long], zoom_start=3)
+m = folium.Map(location=[lat, long], zoom_start=0)
 
 marker_cluster = MarkerCluster().add_to(m)
-
-#folium.Marker(
-    #location=[lat, long],
-    #popup="Add popup text here.",
-    #icon=folium.Icon(color="green", icon="ok-sign"),
-#).add_to(marker_cluster)
-
 for i in range(0,1000):
    folium.Marker(
       location=[df.iloc[i]['lat'], df.iloc[i]['long']],
       popup=df.iloc[i]['Erscheinungsort'],
    ).add_to(m)
-
-
 
 folium_static(m)
 
