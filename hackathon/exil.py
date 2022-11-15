@@ -31,5 +31,20 @@ m = folium.Map(location=[lat, long], zoom_start=5)
 #m = folium.Map(location=[df("lat"), df("long")], zoom_start=5)
 #m = folium.Map(df, x="long", y="lat", zoom_start=5)
 #m = folium.Map(location=[39.949610, -75.150282], zoom_start=5)
-marker_cluster = MarkerCluster().add_to(m)
+
+locations = list(df("lat"), df("long"))
+
+marker_cluster = MarkerCluster(
+    locations=locations,
+    popups=popups,
+    name="1000 clustered icons",
+    overlay=True,
+    control=True,
+    icon_create_function=icon_create_function,
+)
+
+
+
+
+#marker_cluster = MarkerCluster().add_to(m)
 folium_static(m)
