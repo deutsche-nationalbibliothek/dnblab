@@ -63,7 +63,26 @@ st.subheader("Dritte Möglichkeit")
 df_test = df[['idn', 'lat', 'long']].copy()
 st.dataframe(df_test)
 
+
+layer = pdk.Layer(
+    "ScatterplotLayer",
+    df_test,
+    pickable=True,
+    opacity=0.8,
+    stroked=True,
+    filled=True,
+    radius_scale=6,
+    radius_min_pixels=1,
+    radius_max_pixels=100,
+    line_width_min_pixels=1,
+    get_position='[long, lat]',
+    get_radius="exits_radius",
+    get_fill_color=[255, 140, 0],
+    get_line_color=[0, 0, 0],
+)
+
 st.pydeck_chart(pdk.Deck(
+    layers=[layer],
     map_style=None,
     initial_view_state=pdk.ViewState(
         latitude=lat,
@@ -71,24 +90,4 @@ st.pydeck_chart(pdk.Deck(
         zoom=3,
         pitch=50,
     ),
-    layers=[
-        pdk.Layer(
-           'HexagonLayer',
-           data=df_test,
-           get_position='[long, lat]',
-           radius=200,
-           elevation_scale=4,
-           elevation_range=[0, 1000],
-           pickable=True,
-           extruded=True,
-        ),  
-        pdk.Layer(
-            'ScatterplotLayer',
-            data=df_test,
-            get_position='[long, lat]',
-            get_color='[200, 30, 0, 160]',
-            get_radius=200,
-        ),
-      ],
-    ))
-
+))
