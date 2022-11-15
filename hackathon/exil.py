@@ -24,7 +24,7 @@ year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
 year = str(year)
 st.write(year)
 
-df_query = df.query("Erscheinungsjahr" == year)
+df_query = df.query("Erscheinungsjahr == @year")
 st.dataframe(df_query)
 
 lat=df["lat"].values[1]
