@@ -44,5 +44,5 @@ st.map(df_map)
 st.subheader("Dritte Möglichkeit") 
 
 #df_map2 = df_map[df_map['lon'] != "NaN"]
-st.dataframe(df_map)
+st.dataframe(df)
 
