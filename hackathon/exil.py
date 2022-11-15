@@ -49,5 +49,5 @@ folium_static(m)
 
 
 st.write("Test") 
-df_map = df(df([lat', 'lon']))
+df_map = df(df(['lat', 'lon']))
 st.map(df_map)
