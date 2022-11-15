@@ -8,6 +8,7 @@ import pydeck as pdk
 
 
 df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
+st.dataframe(df)
 
 with st.sidebar:
   st.write("Test test test")
@@ -38,11 +39,4 @@ st.subheader("Zweite Möglichkeit")
 
 df_map = df.rename(columns={'long': 'lon'})
 st.map(df_map)
-
-
-
-st.subheader("Dritte Möglichkeit") 
-
-#df_map2 = df_map[df_map['lon'] != "NaN"]
-st.dataframe(df)
 
