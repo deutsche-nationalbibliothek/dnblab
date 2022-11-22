@@ -16,4 +16,6 @@ plotly
 folium
 streamlit_folium
 pydeck
+tweepy
+altair
 
