@@ -39,18 +39,29 @@ col1.write("""
 col2.image("https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab/main/hackathon/image2022-11-16_9-7-49.png")
     
  
-
+st.markdown("
 
 
 lat=df["lat"].values[1]
 long=df["long"].values[1]
 
-year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
-year = str(year)
+#year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
+#year = str(year)
 
-df_query = df.query("Erscheinungsjahr == @year")
+#df_query = df.query("Erscheinungsjahr == @year")
 
 
+#TEST
+selection = st.select_slider("Wählen Sie die Darstellung:", 
+    options=['all', '1933', '1934', '1935', '1936', '1937', '1938', '1939'])
+st.write('Auswahl', selection)
+            
+if selection == "all": 
+    df_query = df
+else: 
+    df_query = df.query("Erscheinungsjahr == @selection")     
+            
+            
 #-- KARTE1 
 m = folium.Map(location=[lat, long], zoom_start=2)
 
@@ -68,6 +79,9 @@ st.write("Anzahl Datensätze: ", len(df_query))
 st.dataframe(df_query)
 
 
+
+
+
 # -- KARTE2
 st.subheader("Zweite Möglichkeit") 
 
@@ -80,36 +94,3 @@ st.map(df_query2)
 
 
 
-st.subheader("Dritte Möglichkeit")
-
-df_test = df[['idn', 'lat', 'long']].copy()
-#st.dataframe(df_test)
-
-
-layer = pdk.Layer(
-    "ScatterplotLayer",
-    df_test,
-    pickable=True,
-    opacity=0.8,
-    stroked=True,
-    filled=True,
-    radius_scale=6,
-    radius_min_pixels=10,
-    radius_max_pixels=100,
-    line_width_min_pixels=1,
-    get_position='[long, lat]',
-    #get_radius=50,
-    get_fill_color=[255, 140, 0],
-    get_line_color=[0, 0, 0],
-)
-
-st.pydeck_chart(pdk.Deck(
-    layers=[layer],
-    map_style=None,
-    initial_view_state=pdk.ViewState(
-        latitude=lat,
-        longitude=long,
-        zoom=3,
-        pitch=50,
-    ),
-))
