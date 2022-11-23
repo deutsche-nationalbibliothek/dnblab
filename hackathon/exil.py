@@ -75,7 +75,7 @@ st.dataframe(df_query)
 st.markdown("#### Darstellung aller Exil-Monographien im Set nach Häufigkeit") 
 df_test2 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
 
-df_map = df_test2.rename(columns={'long': 'lon', 'Erscheinungsort': 'place'})
+df_map = df_test2.rename(columns={'Erscheinungsort': 'place'})
 df_map["place"] = df_map["place"].str.strip("[]")
 new = df_map.groupby(["place"]).size().reset_index(name='counts')
 dfmerge = pd.merge(df_map, new, on=['place'], how="left")
@@ -95,7 +95,7 @@ layer = pdk.Layer(
     radius_min_pixels=5,
     radius_max_pixels=150,
     line_width_min_pixels=1,
-    get_position='[lon, lat]',
+    get_position='[long, lat]',
     get_radius="counts",
     get_fill_color=[255, 140, 0],
     get_line_color=[0, 0, 0],
@@ -106,7 +106,7 @@ st.pydeck_chart(pdk.Deck(
     map_style=None,
     initial_view_state=pdk.ViewState(
         latitude=lat,
-        longitude=lon,
+        longitude=long,
         zoom=3,
         pitch=50,
     ),
