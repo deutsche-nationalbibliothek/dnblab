@@ -109,7 +109,7 @@ for i in range(0,len(df_query)):
     
 marker_cluster = MarkerCluster().add_to(m)
     
-folium_static(m, width=use_container_width)
+folium_static(m)
 
 st.write("Anzahl Datensätze: ", len(df_query))
 
@@ -119,7 +119,7 @@ st.write("Anzahl Datensätze: ", len(df_query))
 st.markdown("#### Darstellung nach Sprachen")
 df_short = df[['idn', 'Erscheinungsort', 'sprache', 'lat', 'long']].copy()
 
-col1, col2 = st.columns([1, 4])
+col1, col2 = st.columns([1, 3])
 with col1: 
     lang = st.radio('Sprache:', ('eng', 'fre', 'ger', 'spa', 'tur', 'cze', 'ita', 'spr'))
     lang = str(lang)
