@@ -9,6 +9,7 @@ import pydeck as pdk
 
 #df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
 df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v4.csv", encoding="utf-8")
+df2 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
 df = df.rename(columns={'sprache.text': 'sprache'})
 df = df.dropna(subset="lat")
 
@@ -96,9 +97,9 @@ st.markdown("#### Darstellung nach Jahren")
 
 year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
 year = str(year)
-df
 
-df_query = df.query("Erscheinungsjahr == @year")
+
+df_query = df2.query("Erscheinungsjahr == @year")
        
 m = folium.Map(location=[lat, long], zoom_start=2)
 
