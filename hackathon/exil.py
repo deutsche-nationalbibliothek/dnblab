@@ -99,7 +99,7 @@ year = str(year)
 
 df_query = df.query("Erscheinungsjahr == @year")
        
-m = folium.Map(location=[lat, long], width=500, zoom_start=2)
+m = folium.Map(location=[lat, long], width="%100", zoom_start=2)
 
 for i in range(0,len(df_query)):
    folium.Marker(
