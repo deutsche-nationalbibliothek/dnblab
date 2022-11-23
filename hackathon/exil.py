@@ -82,7 +82,34 @@ dfmerge = pd.merge(df_map, new, on=['Erscheinungsort'], how="left")
 places = dfmerge.drop_duplicates(['Erscheinungsort'], keep='first')
 
 #df_query2 = df_map
-st.map(places)
+#st.map(places)
+layer = pdk.Layer(
+    "ScatterplotLayer",
+    places,
+    pickable=True,
+    opacity=0.8,
+    stroked=True,
+    filled=True,
+    radius_scale=6,
+    radius_min_pixels=10,
+    radius_max_pixels=100,
+    line_width_min_pixels=1,
+    get_position='[long, lat]',
+    get_radius=count,
+    get_fill_color=[255, 140, 0],
+    get_line_color=[0, 0, 0],
+)
+
+st.pydeck_chart(pdk.Deck(
+    layers=[layer],
+    map_style=None,
+    initial_view_state=pdk.ViewState(
+        latitude=lat,
+        longitude=long,
+        zoom=3,
+        pitch=50,
+    ),
+))
 
 
 
