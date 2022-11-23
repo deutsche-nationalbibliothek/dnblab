@@ -18,7 +18,7 @@ with st.sidebar:
              " die sie für ihre Forschungen benötigen. Hierzu wurden die Metadaten der Exilmonografien (DNBLab - Datenset 07, ca. 30.000 Datensätze) "
              " genutzt werden. Unser Hackathon-Team besteht aus Dörte Asmussen, Kerstin Meinel, Stephanie Palek, Clemens Wahle, Maximilian Kähler und " 
              " Jörn Hasenclever.")
-    team = Image.open("https://github.com/deutsche-nationalbibliothek/dnblab/blob/main/hackathon/Team.jpg")
+    team = "https://github.com/deutsche-nationalbibliothek/dnblab/blob/main/hackathon/Team.jpg"
     st.image(team, use_column_width=True)
     st.sidebar.image("https://github.com/deutsche-nationalbibliothek/dnblab/blob/main/hackathon/image2022-11-15_14-57-28.png", use_column_width=True)
   #st.info("Diese App entstand im ersten Hackathon der DNB.")
