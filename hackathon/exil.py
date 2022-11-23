@@ -92,8 +92,8 @@ layer = pdk.Layer(
     stroked=True,
     filled=True,
     radius_scale=6,
-    radius_min_pixels=5,
-    radius_max_pixels=150,
+    radius_min_pixels=3,
+    radius_max_pixels=50,
     line_width_min_pixels=1,
     get_position='[long, lat]',
     get_radius="counts",
@@ -110,6 +110,7 @@ st.pydeck_chart(pdk.Deck(
         zoom=3,
         pitch=50,
     ),
+    tooltip={"text": "{place}\n{counts}
 ))
 
 
