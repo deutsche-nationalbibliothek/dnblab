@@ -9,6 +9,7 @@ import pydeck as pdk
 
 #df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
 df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
+df = df.rename(columns={'sprache.text': 'sprache'})
 df = df.dropna(subset="lat")
 
 
@@ -120,8 +121,8 @@ st.markdown("#### Darstellung nach Sprachen")
 lang = st.radio('Wählen Sie die anzuzeigende Sprache:', ('eng', 'fre', 'ger', 'spa', 'tur', 'cze', 'ita', 'spr'))
 lang = str(lang)
 
-df_lang = df.dropna(subset="sprache.text")
-df_lang = df_lang.query("sprache.text == @lang")
+df_lang = df.dropna(subset="sprache")
+df_lang = df_lang.query("sprache == @lang")
 
        
 m = folium.Map(location=[lat, long], zoom_start=2)
