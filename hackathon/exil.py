@@ -107,7 +107,7 @@ df_query = df2.query("Erscheinungsjahr == @year")
 m = folium.Map(location=[lat, long], zoom_start=2)
 
 for i in range(0,len(df_query)):
-   popup=df_query.iloc[i]['Erscheinungsort']+ +df_query.iloc[i]['idn'],
+   popup=df_query.iloc[i]['Erscheinungsort']+df_query.iloc[i]['idn'],
    folium.Marker(
       location=[df_query.iloc[i]['lat'], df_query.iloc[i]['long']],
       popup=popup,
