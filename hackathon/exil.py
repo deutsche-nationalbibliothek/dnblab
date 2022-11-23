@@ -74,8 +74,9 @@ st.dataframe(df_query)
 
 # -- KARTE2
 st.markdown("#### Darstellung aller Exil-Monographien im Set nach Häufigkeit") 
+df_test = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
 
-df_map = df.rename(columns={'long': 'lon'})
+df_map = df_test.rename(columns={'long': 'lon'})
 df_map["Erscheinungsort"] = df_map["Erscheinungsort"].str.strip("[]")
 new = df_map.groupby(["Erscheinungsort"]).size().reset_index(name='counts')
 dfmerge = pd.merge(df_map, new, on=['Erscheinungsort'], how="left")
