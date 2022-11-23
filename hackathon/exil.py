@@ -127,13 +127,15 @@ df_lang = df_lang.query("sprache == @lang")
        
 m = folium.Map(location=[lat, long], zoom_start=2)
 
+marker_cluster = MarkerCluster("Sprachen").add_to(m)
+
 for i in range(0,len(df_lang)):
    folium.Marker(
       location=[df_lang.iloc[i]['lat'], df_lang.iloc[i]['long']],
       popup=df_lang.iloc[i]['Erscheinungsort'],
-   ).add_to(m)
+   ).add_to(marker_cluster)
     
-marker_cluster = MarkerCluster().add_to(m)
+
     
 folium_static(m)
 
