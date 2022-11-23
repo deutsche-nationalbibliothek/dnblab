@@ -109,7 +109,7 @@ for i in range(0,len(df_query)):
     
 marker_cluster = MarkerCluster().add_to(m)
     
-folium_static(m, width="100%")
+folium_static(m, width=100%)
 
 st.write("Anzahl Datensätze: ", len(df_query))
 
