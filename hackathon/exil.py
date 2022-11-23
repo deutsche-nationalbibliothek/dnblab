@@ -19,7 +19,7 @@ with st.sidebar:
              " genutzt werden. Unser Hackathon-Team besteht aus Dörte Asmussen, Kerstin Meinel, Stephanie Palek, Clemens Wahle, Maximilian Kähler und " 
              " Jörn Hasenclever.")
     team = "https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab/main/hackathon/Team.jpg"
-    st.image(team, width="200
+    st.image(team)
     st.sidebar.image("https://github.com/deutsche-nationalbibliothek/dnblab/blob/main/hackathon/image2022-11-15_14-57-28.png", use_column_width=True)
   #st.info("Diese App entstand im ersten Hackathon der DNB.")
 
