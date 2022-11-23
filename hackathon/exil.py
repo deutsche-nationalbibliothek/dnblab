@@ -120,7 +120,9 @@ st.markdown("#### Darstellung nach Sprachen")
 lang = st.radio('Wählen Sie die anzuzeigende Sprache:', ('eng', 'fre', 'ger', 'spa', 'tur', 'cze', 'ita', 'spr'))
 lang = str(lang)
 
-df_lang = df.query("sprache.text == @lang")
+df_lang = df.dropna(subset="sprache.text")
+df_lang = df_lang.query("sprache.text == @lang")
+
        
 m = folium.Map(location=[lat, long], zoom_start=2)
 
