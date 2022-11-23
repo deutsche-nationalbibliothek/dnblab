@@ -136,10 +136,10 @@ m = folium.Map(location=[lat, long], zoom_start=2)
 marker_cluster = MarkerCluster().add_to(m)
 
 for i in range(0,len(df_lang)):
+    newpopup=df_query.iloc[i]['Erscheinungsort']+", IDN: "+df_query.iloc[i]['idn'],
     folium.Marker(
-        popup2=df_query.iloc[i]['Erscheinungsort']+", IDN: "+df_query.iloc[i]['idn'],
         location=[df_lang.iloc[i]['lat'], df_lang.iloc[i]['long']],
-        popup=popup2,
+        popup=newpopup,
         ).add_to(marker_cluster)
        
 folium_static(m)
