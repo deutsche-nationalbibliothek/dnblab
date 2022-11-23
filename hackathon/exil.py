@@ -13,13 +13,13 @@ df = df.dropna(subset="lat")
 
 
 with st.sidebar:
-  st.write("Ziel des DNB-Hackathon-Projektes war es, in zwei Tagen einen Prototyp einer leicht nutzbaren App zu entwickeln, die die "
+    st.write("Ziel des DNB-Hackathon-Projektes war es, in zwei Tagen einen Prototyp einer leicht nutzbaren App zu entwickeln, die die "
              " Erscheinungsorte der Exilmonografien auf einer Weltkarte anzeigt und weitere Informationen den interessierten Nutzer*innen bietet, "
              " die sie für ihre Forschungen benötigen. Hierzu wurden die Metadaten der Exilmonografien (DNBLab - Datenset 07, ca. 30.000 Datensätze) "
              " genutzt werden. Unser Hackathon-Team besteht aus Dörte Asmussen, Kerstin Meinel, Stephanie Palek, Clemens Wahle, Maximilian Kähler und " 
              " Jörn Hasenclever.")
-  st.image("https://github.com/deutsche-nationalbibliothek/dnblab/blob/main/hackathon/image2022-11-15_14-57-28.png")
-  st.sidebar.image("https://github.com/deutsche-nationalbibliothek/dnblab/blob/main/hackathon/image2022-11-15_14-57-28.png", use_column_width=True)
+    st.image("/Team.jpg", use_column_width=True)
+    st.sidebar.image("https://github.com/deutsche-nationalbibliothek/dnblab/blob/main/hackathon/image2022-11-15_14-57-28.png", use_column_width=True)
   #st.info("Diese App entstand im ersten Hackathon der DNB.")
 
 
