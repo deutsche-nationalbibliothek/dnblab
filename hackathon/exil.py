@@ -39,7 +39,7 @@ col1.write("""
 col2.image("https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab/main/hackathon/image2022-11-16_9-7-49.png")
     
  
-st.markdown("
+
 
 
 lat=df["lat"].values[1]
