@@ -80,7 +80,6 @@ df_map["Erscheinungsort"] = df_map["Erscheinungsort"].str.strip("[]")
 new = df_map.groupby(["Erscheinungsort"]).size().reset_index(name='counts')
 dfmerge = pd.merge(df_map, new, on=['Erscheinungsort'], how="left")
 places = dfmerge.drop_duplicates(['Erscheinungsort'], keep='first')
-places
 
 #df_query2 = df_map
 st.map(places)
