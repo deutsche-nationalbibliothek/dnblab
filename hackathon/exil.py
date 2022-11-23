@@ -8,7 +8,7 @@ import pydeck as pdk
 
 
 #df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
-df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
+df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v4.csv", encoding="utf-8")
 df = df.rename(columns={'sprache.text': 'sprache'})
 df = df.dropna(subset="lat")
 
