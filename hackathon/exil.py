@@ -88,6 +88,8 @@ st.pydeck_chart(pdk.Deck(
 
 st.write("Anzahl Datensätze der Exil-Monografien: ", len(df2))
 
+st.markdown("Zu den [Exil-Monografien im Katalog der Deutschen Nationalbibliothek](https://portal.dnb.de/opac.htm?query=catalog%3Ddnb.dea.exilpub&method=simpleSearch&cqlMode=true")
+
 
 
 
