@@ -70,39 +70,6 @@ st.dataframe(df_query)
 
 
 
-df_test = df[['idn', 'lat', 'long']].copy()
-#st.dataframe(df_test)
-
-
-layer = pdk.Layer(
-    "ScatterplotLayer",
-    df_test,
-    pickable=True,
-    opacity=0.8,
-    stroked=True,
-    filled=True,
-    radius_scale=6,
-    radius_min_pixels=10,
-    radius_max_pixels=100,
-    line_width_min_pixels=1,
-    get_position='[long, lat]',
-    #get_radius=50,
-    get_fill_color=[255, 140, 0],
-    get_line_color=[0, 0, 0],
-)
-
-st.pydeck_chart(pdk.Deck(
-    layers=[layer],
-    map_style=None,
-    initial_view_state=pdk.ViewState(
-        latitude=lat,
-        longitude=long,
-        zoom=3,
-        pitch=50,
-    ),
-))
-
-
 
 # -- KARTE2
 st.markdown("#### Darstellung aller Exil-Monographien im Set nach Häufigkeit") 
@@ -125,7 +92,7 @@ layer = pdk.Layer(
     stroked=True,
     filled=True,
     radius_scale=6,
-    radius_min_pixels=10,
+    radius_min_pixels=1,
     radius_max_pixels=100,
     line_width_min_pixels=1,
     get_position='[lon, lat]',
