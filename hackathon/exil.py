@@ -52,7 +52,6 @@ df_map["place"] = df_map["place"].str.strip("[]")
 new = df_map.groupby(["place"]).size().reset_index(name='counts')
 dfmerge = pd.merge(df_map, new, on=['place'], how="left")
 places = dfmerge.drop_duplicates(['place'], keep='first')
-places
 
 #df_query2 = df_map
 #st.map(places)
@@ -97,6 +96,7 @@ st.markdown("#### Darstellung nach Jahren")
 
 year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
 year = str(year)
+df
 
 df_query = df.query("Erscheinungsjahr == @year")
        
