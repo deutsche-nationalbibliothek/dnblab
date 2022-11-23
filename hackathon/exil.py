@@ -137,7 +137,7 @@ marker_cluster = MarkerCluster().add_to(m)
 
 for i in range(0,len(df_lang)):
     folium.Marker(
-        popup=df_query.iloc[i]['Erscheinungsort']+", IDN: "+df_query.iloc[i]['idn']
+        popup=df_query.iloc[i]['Erscheinungsort']+", IDN: "+df_query.iloc[i]['idn'],
         location=[df_lang.iloc[i]['lat'], df_lang.iloc[i]['long']],
         popup=popup,
         ).add_to(marker_cluster)
