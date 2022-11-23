@@ -13,6 +13,7 @@ df = df.dropna(subset="lat")
 
 
 with st.sidebar:
+    st.markdown(" ##### Das Projekt")
     st.write("Ziel des DNB-Hackathon-Projektes war es, in zwei Tagen einen Prototyp einer leicht nutzbaren App zu entwickeln, die die "
              " Erscheinungsorte der Exilmonografien auf einer Weltkarte anzeigt und weitere Informationen den interessierten Nutzer*innen bietet, "
              " die sie für ihre Forschungen benötigen. Hierzu wurden die Metadaten der Exilmonografien (DNBLab - Datenset 07, ca. 30.000 Datensätze) "
@@ -20,13 +21,13 @@ with st.sidebar:
              " Jörn Hasenclever.")
     team = "https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab/main/hackathon/Team.jpg"
     st.image(team)
-    st.sidebar.image("https://github.com/deutsche-nationalbibliothek/dnblab/blob/main/hackathon/image2022-11-15_14-57-28.png", use_column_width=True)
+    
   #st.info("Diese App entstand im ersten Hackathon der DNB.")
 
 
 st.header("DNB-Hackathon: Exil-Monographien") 
-
-st.write("""
+col1, col2 = st.columns([3, 1])
+col1.write("""
         Das Deutsche Exilarchiv 1933–1945 bewahrt in seiner Sammlung knapp 30.000 Exilpublikationen. Darunter von Emigrantinnen und Emigranten 
         verfasste Werke in Erstausgaben, Nachauflagen und Übersetzungen sowie Sammelbände, an denen Emigrantinnen und Emigranten mitgearbeitet haben, 
         darüber hinaus von Emigrantinnen und Emigranten herausgegebene, übersetzte, illustrierte und gestaltete Bücher. Hinzu kommt die Produktion 
@@ -35,6 +36,7 @@ st.write("""
         sich Exilmonografien auf die Erscheinungsländer und Erscheinungsorte? Wo sind die meisten Exilmonografien entstanden? Was sind die 
         entlegensten Erscheinungsorte?
          """)
+col2.image("https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab/main/hackathon/image2022-11-16_9-7-49.png")
     
  
 
