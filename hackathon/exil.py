@@ -99,7 +99,7 @@ year = str(year)
 
 df_query = df.query("Erscheinungsjahr == @year")
        
-m = folium.Map(location=[lat, long], width="%100", zoom_start=2)
+m = folium.Map(location=[lat, long], zoom_start=2)
 
 for i in range(0,len(df_query)):
    folium.Marker(
@@ -109,7 +109,7 @@ for i in range(0,len(df_query)):
     
 marker_cluster = MarkerCluster().add_to(m)
     
-folium_static(m)
+folium_static(m, width="100%")
 
 st.write("Anzahl Datensätze: ", len(df_query))
 
