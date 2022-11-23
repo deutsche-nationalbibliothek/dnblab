@@ -145,7 +145,7 @@ st.write("Anzahl ausgewählter Datensätze der Exil-Monografien: ", len(df_lang)
 st.write(" ")
 st.write(" ")
 st.markdown(" ##### Lust bekommen mit den Daten eigene Visualisierungen auszuprobieren? ")
-st.mardown("Hier befindet sich das Set: [DNB - DNBLab: Zugang zu Datensets und digitalen Objekten - DnbLab: Freie digitale Objektsammlungen](https://www.dnb.de/dnblabsets) ")
+st.markdown("Hier befindet sich das Set: [DNB - DNBLab: Zugang zu Datensets und digitalen Objekten - DnbLab: Freie digitale Objektsammlungen](https://www.dnb.de/dnblabsets) ")
 
 
 
