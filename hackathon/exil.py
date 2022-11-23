@@ -38,7 +38,10 @@ col1.write("""
          """)
 col2.image("https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab/main/hackathon/image2022-11-16_9-7-49.png")
     
- 
+lat=df["lat"].values[1]
+long=df["long"].values[1]
+    
+    
 # -- KARTE2
 st.markdown("#### Darstellung aller Exil-Monographien im Set nach Häufigkeit") 
 df_test2 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
@@ -90,9 +93,6 @@ st.pydeck_chart(pdk.Deck(
 
 # KARTE 1
 st.markdown("#### Darstellung der Exil-Monograhien nach Erscheinungsjahr")
-
-lat=df["lat"].values[1]
-long=df["long"].values[1]
 
 year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
 year = str(year)
