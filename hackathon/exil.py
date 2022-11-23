@@ -110,7 +110,7 @@ st.pydeck_chart(pdk.Deck(
         zoom=3,
         pitch=50,
     ),
-    tooltip={"text": "{place}\n{counts}
+    tooltip={"text": "{place}\n{counts}"}
 ))
 
 
