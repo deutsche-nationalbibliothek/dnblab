@@ -119,25 +119,23 @@ st.write("Anzahl Datensätze: ", len(df_query))
 st.markdown("#### Darstellung nach Sprachen")
 df_short = df[['idn', 'Erscheinungsort', 'sprache', 'lat', 'long']].copy()
 
-col1, col2 = st.columns([1, 3])
-with col1: 
-    lang = st.radio('Sprache:', ('eng', 'fre', 'ger', 'spa', 'tur', 'cze', 'ita', 'spr'))
-    lang = str(lang)
+lang = st.selectbox('Wählen Sie eine Sprache:', ('eng', 'fre', 'ger', 'spa', 'tur', 'cze', 'ita', 'spr'))
+lang = str(lang)
     
-with col2:
-    df_lang = df_short.dropna(subset="sprache")
-    df_lang = df_lang.query("sprache == @lang")
-       
-    m = folium.Map(location=[lat, long], zoom_start=2)
-    marker_cluster = MarkerCluster().add_to(m)
 
-    for i in range(0,len(df_lang)):
-        folium.Marker(
-            location=[df_lang.iloc[i]['lat'], df_lang.iloc[i]['long']],
-            popup=df_lang.iloc[i]['Erscheinungsort'],
-            ).add_to(marker_cluster)
+df_lang = df_short.dropna(subset="sprache")
+df_lang = df_lang.query("sprache == @lang")
        
-    folium_static(m)
+m = folium.Map(location=[lat, long], zoom_start=2)
+marker_cluster = MarkerCluster().add_to(m)
+
+for i in range(0,len(df_lang)):
+    folium.Marker(
+        location=[df_lang.iloc[i]['lat'], df_lang.iloc[i]['long']],
+        popup=df_lang.iloc[i]['Erscheinungsort'],
+        ).add_to(marker_cluster)
+       
+folium_static(m)
 
 st.write("Anzahl Datensätze: ", len(df_lang))
 
