@@ -18,7 +18,7 @@ with st.sidebar:
              " die sie für ihre Forschungen benötigen. Hierzu wurden die Metadaten der Exilmonografien (DNBLab - Datenset 07, ca. 30.000 Datensätze) "
              " genutzt werden. Unser Hackathon-Team besteht aus Dörte Asmussen, Kerstin Meinel, Stephanie Palek, Clemens Wahle, Maximilian Kähler und " 
              " Jörn Hasenclever.")
-  st.image("https://static.streamlit.io/examples/dice.jpg")
+  st.image("/team.jpg")
   #st.info("Diese App entstand im ersten Hackathon der DNB.")
 
 
