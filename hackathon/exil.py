@@ -91,7 +91,7 @@ st.pydeck_chart(pdk.Deck(
 st.write(" ") 
 
 # KARTE 1
-st.markdown("#### Darstellung der Exil-Monograhien nach Erscheinungsjahr")
+st.markdown("#### Darstellung nach Jahren")
 
 year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
 year = str(year)
@@ -111,7 +111,31 @@ marker_cluster = MarkerCluster().add_to(m)
 folium_static(m)
 
 st.write("Anzahl Datensätze: ", len(df_query))
-st.dataframe(df_query)
+
+
+
+# KARTE 3
+st.markdown("#### Darstellung nach Sprachen")
+
+lang = st.radio('Wählen Sie die anzuzeigende Sprache:', ('eng', 'fre', 'ger', 'spa', 'tur', 'cze', 'ita', 'spr'))
+lang = str(lang)
+
+df_lang = df.query("sprache.text == @lang")
+       
+m = folium.Map(location=[lat, long], zoom_start=2)
+
+for i in range(0,len(df_lang)):
+   folium.Marker(
+      location=[df_lang.iloc[i]['lat'], df_lang.iloc[i]['long']],
+      popup=df_lang.iloc[i]['Erscheinungsort'],
+   ).add_to(m)
+    
+marker_cluster = MarkerCluster().add_to(m)
+    
+folium_static(m)
+
+st.write("Anzahl Datensätze: ", len(df_lang))
+
 
 
 
