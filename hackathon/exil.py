@@ -93,7 +93,6 @@ st.write(" ")
 
 # KARTE 1
 st.markdown("#### Darstellung nach Jahren")
-adjust = st.get_container_width
 
 year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
 year = str(year)
@@ -110,7 +109,7 @@ for i in range(0,len(df_query)):
     
 marker_cluster = MarkerCluster().add_to(m)
     
-folium_static(m, width=adjust)
+folium_static(m, width=use_container_width)
 
 st.write("Anzahl Datensätze: ", len(df_query))
 
