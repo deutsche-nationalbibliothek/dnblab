@@ -117,6 +117,7 @@ st.write("Anzahl Datensätze: ", len(df_query))
 
 # KARTE 3
 st.markdown("#### Darstellung nach Sprachen")
+df_short = df[['idn', 'Erscheinungsort', 'sprache', 'lat', 'long']].copy()
 
 col1, col2 = st.columns([1, 4])
 with col1: 
@@ -124,7 +125,7 @@ with col1:
     lang = str(lang)
     
 with col2:
-    df_lang = df.dropna(subset="sprache")
+    df_lang = df_short.dropna(subset="sprache")
     df_lang = df_lang.query("sprache == @lang")
        
     m = folium.Map(location=[lat, long], zoom_start=2)
