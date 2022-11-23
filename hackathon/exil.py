@@ -39,7 +39,55 @@ col1.write("""
 col2.image("https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab/main/hackathon/image2022-11-16_9-7-49.png")
     
  
+# -- KARTE2
+st.markdown("#### Darstellung aller Exil-Monographien im Set nach Häufigkeit") 
+df_test2 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
 
+df_map = df_test2.rename(columns={'Erscheinungsort': 'place'})
+df_map["place"] = df_map["place"].str.strip("[]")
+new = df_map.groupby(["place"]).size().reset_index(name='counts')
+dfmerge = pd.merge(df_map, new, on=['place'], how="left")
+places = dfmerge.drop_duplicates(['place'], keep='first')
+
+#df_query2 = df_map
+#st.map(places)
+layer = pdk.Layer(
+    "ScatterplotLayer",
+    places,
+    pickable=True,
+    opacity=0.8,
+    stroked=True,
+    filled=True,
+    radius_scale=6,
+    radius_min_pixels=3,
+    radius_max_pixels=50,
+    line_width_min_pixels=1,
+    get_position='[long, lat]',
+    get_radius="counts",
+    get_fill_color=[230, 45, 45],
+    get_line_color=[0, 0, 0],
+)
+
+st.pydeck_chart(pdk.Deck(
+    layers=[layer],
+    map_style=None,
+    initial_view_state=pdk.ViewState(
+        latitude=lat,
+        longitude=long,
+        zoom=3,
+        pitch=50,
+    ),
+    tooltip={"text": "{place}\n{counts}"}
+))
+
+
+
+
+
+
+
+
+# KARTE 1
 st.markdown("#### Darstellung der Exil-Monograhien nach Erscheinungsjahr")
 
 lat=df["lat"].values[1]
@@ -49,10 +97,7 @@ year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
 year = str(year)
 
 df_query = df.query("Erscheinungsjahr == @year")
-
-          
-            
-#-- KARTE1 
+       
 m = folium.Map(location=[lat, long], zoom_start=2)
 
 for i in range(0,len(df_query)):
@@ -71,47 +116,6 @@ st.dataframe(df_query)
 
 
 
-# -- KARTE2
-st.markdown("#### Darstellung aller Exil-Monographien im Set nach Häufigkeit") 
-df_test2 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
-
-df_map = df_test2.rename(columns={'Erscheinungsort': 'place'})
-df_map["place"] = df_map["place"].str.strip("[]")
-new = df_map.groupby(["place"]).size().reset_index(name='counts')
-dfmerge = pd.merge(df_map, new, on=['place'], how="left")
-places = dfmerge.drop_duplicates(['place'], keep='first')
-places
-
-#df_query2 = df_map
-#st.map(places)
-layer = pdk.Layer(
-    "ScatterplotLayer",
-    places,
-    pickable=True,
-    opacity=0.8,
-    stroked=True,
-    filled=True,
-    radius_scale=6,
-    radius_min_pixels=3,
-    radius_max_pixels=50,
-    line_width_min_pixels=1,
-    get_position='[long, lat]',
-    get_radius="counts",
-    get_fill_color=[255, 140, 0],
-    get_line_color=[0, 0, 0],
-)
-
-st.pydeck_chart(pdk.Deck(
-    layers=[layer],
-    map_style=None,
-    initial_view_state=pdk.ViewState(
-        latitude=lat,
-        longitude=long,
-        zoom=3,
-        pitch=50,
-    ),
-    tooltip={"text": "{place}\n{counts}"}
-))
 
 
 
