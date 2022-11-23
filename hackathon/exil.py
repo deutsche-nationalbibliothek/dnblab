@@ -119,7 +119,7 @@ st.write("Anzahl Datensätze: ", len(df_query))
 st.markdown("#### Darstellung nach Sprachen")
 df_short = df[['idn', 'Erscheinungsort', 'sprache', 'lat', 'long']].copy()
 
-lang = st.selectbox('Wählen Sie eine Sprache:', ('eng', 'fre', 'ger', 'spa', 'tur', 'cze', 'ita', 'spr'))
+lang = st.selectbox('Wählen Sie eine Sprache:', ('cze', 'eng', 'fre', 'ger', 'spa', 'tur', 'ita', 'spr'))
 lang = str(lang)
     
 
