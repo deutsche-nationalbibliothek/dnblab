@@ -108,11 +108,12 @@ st.pydeck_chart(pdk.Deck(
 st.markdown("#### Darstellung aller Exil-Monographien im Set nach Häufigkeit") 
 df_test2 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
 
-df_map = df_test2.rename(columns={'long': 'lon'})
-df_map["Erscheinungsort"] = df_map["Erscheinungsort"].str.strip("[]")
-new = df_map.groupby(["Erscheinungsort"]).size().reset_index(name='counts')
-dfmerge = pd.merge(df_map, new, on=['Erscheinungsort'], how="left")
-places = dfmerge.drop_duplicates(['Erscheinungsort'], keep='first')
+df_map = df_test2.rename(columns={'long': 'lon'; 'Erscheinungsort': 'place'})
+df_map["place"] = df_map["place"].str.strip("[]")
+new = df_map.groupby(["place"]).size().reset_index(name='counts')
+dfmerge = pd.merge(df_map, new, on=['place'], how="left")
+places = dfmerge.drop_duplicates(['place'], keep='first')
+places
 
 #df_query2 = df_map
 #st.map(places)
