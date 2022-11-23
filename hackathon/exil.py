@@ -28,7 +28,7 @@ with st.sidebar:
   #st.info("Diese App entstand im ersten Hackathon der DNB.")
 
 
-st.header("DNB-Hackathon: Exil-Monographien") 
+st.header("DNB-Hackathon: Exil-Monografien") 
 col1, col2 = st.columns([3, 1])
 col1.write("""
         Das Deutsche Exilarchiv 1933–1945 bewahrt in seiner Sammlung knapp 30.000 Exilpublikationen. Darunter von Emigrantinnen und Emigranten 
@@ -46,7 +46,7 @@ long=df["long"].values[1]
     
     
 # -- KARTE2
-st.markdown("#### Darstellung aller Exil-Monographien im Set nach Häufigkeit") 
+st.markdown("#### Darstellung aller Exil-Monografien im Set nach Häufigkeit der Verlagsorte") 
 df_test2 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
 
 df_map = df_test2.rename(columns={'Erscheinungsort': 'place'})
@@ -86,7 +86,7 @@ st.pydeck_chart(pdk.Deck(
     tooltip={"text": "{place}\n{counts}"}
 ))
 
-
+st.write("Anzahl Datensätze der Exil-Monografien: ", len(df2))
 
 
 
@@ -94,7 +94,7 @@ st.pydeck_chart(pdk.Deck(
 st.write(" ") 
 
 # KARTE 1
-st.markdown("#### Darstellung nach Jahren")
+st.markdown("#### Darstellung der Verlagsorte nach Erscheinungsjahren")
 
 year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
 year = str(year)
@@ -114,12 +114,12 @@ marker_cluster = MarkerCluster().add_to(m)
     
 folium_static(m)
 
-st.write("Anzahl Datensätze: ", len(df_query))
+st.write("Anzahl ausgewählter Datensätze der Exil-Monografien: ", len(df_query))
 
 
 
 # KARTE 3
-st.markdown("#### Darstellung nach Sprachen")
+st.markdown("#### Darstellung nach Sprachen der Exil-Monografien")
 df_short = df[['idn', 'Erscheinungsort', 'sprache', 'lat', 'long']].copy()
 
 lang = st.selectbox('Wählen Sie eine Sprache:', ('cze', 'eng', 'fre', 'ger', 'spa', 'tur', 'ita', 'spr'))
@@ -140,8 +140,12 @@ for i in range(0,len(df_lang)):
        
 folium_static(m)
 
-st.write("Anzahl Datensätze: ", len(df_lang))
+st.write("Anzahl ausgewählter Datensätze der Exil-Monografien: ", len(df_lang))
 
+st.write(" ")
+st.write(" ")
+st. markdown(" ##### Lust bekommen mit den Daten eigene Visualisierungen auszuprobieren? "
+    " Hier befindet sich das Set: [DNB - DNBLab: Zugang zu Datensets und digitalen Objekten - DnbLab: Freie digitale Objektsammlungen](https://www.dnb.de/dnblabsets) ")
 
 
 
