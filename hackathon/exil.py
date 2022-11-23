@@ -40,27 +40,17 @@ col2.image("https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab
     
  
 
-
+st.markdown("#### Darstellung der Exil-Monograhien nach Erscheinungsjahr")
 
 lat=df["lat"].values[1]
 long=df["long"].values[1]
 
-#year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
-#year = str(year)
+year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
+year = str(year)
 
-#df_query = df.query("Erscheinungsjahr == @year")
+df_query = df.query("Erscheinungsjahr == @year")
 
-
-#TEST
-selection = st.select_slider("Wählen Sie die Darstellung:", 
-    options=['all', '1933', '1934', '1935', '1936', '1937', '1938', '1939'])
-st.write('Auswahl', selection)
-            
-if selection == "all": 
-    df_query = df
-else: 
-    df_query = df.query("Erscheinungsjahr == @selection")     
-            
+          
             
 #-- KARTE1 
 m = folium.Map(location=[lat, long], zoom_start=2)
@@ -83,13 +73,12 @@ st.dataframe(df_query)
 
 
 # -- KARTE2
-st.subheader("Zweite Möglichkeit") 
+st.markdown("#### Darstellung aller Exil-Monographien im Set nach Häufigkeit") 
 
-year2 = st.slider('Wählen Sie eine weitere Jahreszahl', 1933, 1950)
-year2 = str(year2)
 
 df_map = df.rename(columns={'long': 'lon'})
-df_query2 = df_map.query("Erscheinungsjahr == @year2")
+
+df_query2 = df_map
 st.map(df_query2)
 
 
