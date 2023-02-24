@@ -18,4 +18,5 @@ streamlit_folium
 pydeck
 tweepy
 altair
-
+wget
+essentia
