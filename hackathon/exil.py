@@ -41,8 +41,8 @@ col1.write("""
          """)
 col2.image("https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab/main/hackathon/image2022-11-16_9-7-49.png")
     
-lat=df["lat"].values[1]
-long=df["long"].values[1]
+lat=df1["lat"].values[1]
+long=df1["long"].values[1]
     
     
 # -- KARTE1
@@ -52,7 +52,7 @@ st.markdown("#### Darstellung aller Exil-Monografien im Set nach Häufigkeit der
 #df_map1_prepare = df_map1_prepare.drop_duplicates()
 #st.write(len(df_map1_prepare))
 
-df_test2 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
+df_test2 = df1[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
 
 df_map = df_test2.rename(columns={'Erscheinungsort': 'place'})
 df_map["place"] = df_map["place"].str.strip("[]")
