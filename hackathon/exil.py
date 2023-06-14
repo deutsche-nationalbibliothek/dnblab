@@ -7,8 +7,7 @@ from streamlit_folium import folium_static
 import pydeck as pdk
 
 
-#df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
-df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v6_20230315.xlsx", encoding="utf-8")
+#df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v6_20230315.xlsx", encoding="utf-8")
 df1 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v4.csv", encoding="utf-8")
 df2 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
 df2 = df2.dropna(subset="lat")
@@ -48,10 +47,10 @@ long=df["long"].values[1]
     
 # -- KARTE1
 st.markdown("#### Darstellung aller Exil-Monografien im Set nach Häufigkeit der Verlagsorte") 
-df_map1_prepare = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
-st.write(len(df_map1_prepare)) 
-df_map1_prepare = df_map1_prepare.drop_duplicates()
-st.write(len(df_map1_prepare))
+#df_map1_prepare = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
+#st.write(len(df_map1_prepare)) 
+#df_map1_prepare = df_map1_prepare.drop_duplicates()
+#st.write(len(df_map1_prepare))
 
 df_test2 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
 
