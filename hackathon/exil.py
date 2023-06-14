@@ -8,11 +8,12 @@ import pydeck as pdk
 
 
 #df = pd.read_csv("hackathon/alldata.csv", encoding="utf-8")
-df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v4.csv", encoding="utf-8")
+df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v6_20230315.xlsx", encoding="utf-8")
+df1 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v4.csv", encoding="utf-8")
 df2 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
 df2 = df2.dropna(subset="lat")
-df = df.rename(columns={'sprache.text': 'sprache'})
-df = df.dropna(subset="lat")
+df1 = df1.rename(columns={'sprache.text': 'sprache'})
+df1 = df1.dropna(subset="lat")
 
 
 with st.sidebar:
@@ -45,8 +46,13 @@ lat=df["lat"].values[1]
 long=df["long"].values[1]
     
     
-# -- KARTE2
+# -- KARTE1
 st.markdown("#### Darstellung aller Exil-Monografien im Set nach Häufigkeit der Verlagsorte") 
+df_map1_prepare = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
+st.write(len(df_map1_prepare)) 
+df_map1_prepare = df_map1_prepare.drop_duplicates()
+st.write(len(df_map1_prepare))
+
 df_test2 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
 
 df_map = df_test2.rename(columns={'Erscheinungsort': 'place'})
@@ -123,7 +129,7 @@ st.write("Anzahl ausgewählter Datensätze der Exil-Monografien: ", len(df_query
 
 # KARTE 3
 st.markdown("#### Darstellung nach Sprachen der Exil-Monografien")
-df_short = df[['idn', 'Erscheinungsort', 'sprache', 'lat', 'long']].copy()
+df_short = df1[['idn', 'Erscheinungsort', 'sprache', 'lat', 'long']].copy()
 
 lang = st.selectbox('Wählen Sie eine Sprache:', ('cze', 'eng', 'fre', 'ger', 'spa', 'tur', 'ita', 'spr'))
 lang = str(lang)
