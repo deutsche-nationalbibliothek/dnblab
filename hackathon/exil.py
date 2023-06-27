@@ -58,7 +58,10 @@ df_map1 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()  ## extract necce
 df_map1 = df_map1.rename(columns={'Erscheinungsort': 'place'})  ## rename column
 df_map1["place"] = df_map1["place"].str.strip("[]")    ## remove square brackets from place names where present
 
-st.dataframe(df_map1)
+st.write(len(df_map1))
+df_map1_1 = df_map1.drop_duplicates()
+st.dataframe(df_map1_1)
+st.write(len(df_map1_1))
 #df_map1_prepare = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
 #st.write(len(df_map1_prepare)) 
 #df_map1_prepare = df_map1_prepare.drop_duplicates()
