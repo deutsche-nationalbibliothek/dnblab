@@ -7,7 +7,7 @@ from streamlit_folium import folium_static
 import pydeck as pdk
 
 
-df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v6_corr.xlsx", encoding="utf-8")
+df = pd.read_excel("hackathon/exilarchiv_monografien-mit-geoloc_v6_corr.xlsx")
 df1 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v4.csv", encoding="utf-8")
 df2 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
 df2 = df2.dropna(subset="lat")
