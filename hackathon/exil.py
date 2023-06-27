@@ -55,7 +55,7 @@ long=df1["long"].values[1]
 
 st.markdown("#### Darstellung aller Exil-Monografien im Set nach Häufigkeit der Verlagsorte") 
 
-df_map1 = df[['idn', 'Erscheinungsort'].copy()  # extract neccessary columns from df
+df_map1 = df[['idn', 'Erscheinungsort']].copy()  # extract neccessary columns from df
 df_merge_map1 = pd.merge(df_map1, coord, on=['Erscheinungsort'], how="left")
 st.dataframe(df_merge_map1)
 df_map1 = df_map1.rename(columns={'Erscheinungsort': 'place'})  # rename column
