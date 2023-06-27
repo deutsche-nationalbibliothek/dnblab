@@ -61,14 +61,15 @@ df_map1_1 = df_map1.drop_duplicates() # remove duplicate entries
 
 df_map1_2 = df_map1_1.groupby(["place"]).size().reset_index(name='counts')
 st.dataframe(df_map1_2)
-#dfmerge = pd.merge(df_map, new, on=['place'], how="left")
-#places = dfmerge.drop_duplicates(['place'], keep='first')
+dfmerge = pd.merge(df_map1_1, df_map1_2, on=['place'], how="left")
+places = dfmerge.drop_duplicates(['place'], keep='first')
+st.dataframe(places)
 
 #df_query2 = df_map
 #st.map(places)
 layer = pdk.Layer(
     "ScatterplotLayer",
-    df_map1_1, #places,
+    places,
     pickable=True,
     opacity=0.8,
     stroked=True,
