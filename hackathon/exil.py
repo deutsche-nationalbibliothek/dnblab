@@ -54,32 +54,21 @@ long=df1["long"].values[1]
 
 st.markdown("#### Darstellung aller Exil-Monografien im Set nach Häufigkeit der Verlagsorte") 
 
-df_map1 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()  ## extract neccessary columns from df
-df_map1 = df_map1.rename(columns={'Erscheinungsort': 'place'})  ## rename column
-df_map1["place"] = df_map1["place"].str.strip("[]")    ## remove square brackets from place names where present
+df_map1 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()  # extract neccessary columns from df
+df_map1 = df_map1.rename(columns={'Erscheinungsort': 'place'})  # rename column
+df_map1["place"] = df_map1["place"].str.strip("[]")    # remove square brackets from place names where present
+df_map1_1 = df_map1.drop_duplicates() # remove duplicate entries
 
-st.write(len(df_map1))
-df_map1_1 = df_map1.drop_duplicates()
-st.dataframe(df_map1_1)
-st.write(len(df_map1_1))
-#df_map1_prepare = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
-#st.write(len(df_map1_prepare)) 
-#df_map1_prepare = df_map1_prepare.drop_duplicates()
-#st.write(len(df_map1_prepare))
-
-df_test2 = df1[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
-
-df_map = df_test2.rename(columns={'Erscheinungsort': 'place'})
-df_map["place"] = df_map["place"].str.strip("[]")
-new = df_map.groupby(["place"]).size().reset_index(name='counts')
-dfmerge = pd.merge(df_map, new, on=['place'], how="left")
-places = dfmerge.drop_duplicates(['place'], keep='first')
+df_map1_2 = df_map1_1.groupby(["place"]).size().reset_index(name='counts')
+st.dataframe(df_map1_2)
+#dfmerge = pd.merge(df_map, new, on=['place'], how="left")
+#places = dfmerge.drop_duplicates(['place'], keep='first')
 
 #df_query2 = df_map
 #st.map(places)
 layer = pdk.Layer(
     "ScatterplotLayer",
-    places,
+    df_map1_1, #places,
     pickable=True,
     opacity=0.8,
     stroked=True,
