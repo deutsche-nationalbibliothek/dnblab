@@ -7,13 +7,15 @@ from streamlit_folium import folium_static
 import pydeck as pdk
 
 
-#df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v6_20230315.xlsx", encoding="utf-8")
+df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v6_corr.xlsx", encoding="utf-8")
 df1 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v4.csv", encoding="utf-8")
 df2 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
 df2 = df2.dropna(subset="lat")
 df1 = df1.rename(columns={'sprache.text': 'sprache'})
 df1 = df1.dropna(subset="lat")
 
+
+## -- SIDEBAR -- 
 
 with st.sidebar:
     st.markdown(" ##### Das Projekt")
@@ -27,6 +29,7 @@ with st.sidebar:
     
   #st.info("Diese App entstand im ersten Hackathon der DNB.")
 
+## -- TEXT --
 
 st.header("DNB-Hackathon: Exil-Monografien") 
 col1, col2 = st.columns([3, 1])
@@ -43,10 +46,19 @@ col2.image("https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab
     
 lat=df1["lat"].values[1]
 long=df1["long"].values[1]
-    
-    
-# -- KARTE1
+
+
+## - MAPS -- 
+
+# -- MAP1: Darstellung aller Exil-Monografien im Set nach Häufigkeit der Verlagsorte --
+
 st.markdown("#### Darstellung aller Exil-Monografien im Set nach Häufigkeit der Verlagsorte") 
+
+df_map1 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()  ## extract neccessary columns from df
+df_map1 = df_map1.rename(columns={'Erscheinungsort': 'place'})  ## rename column
+df_map1["place"] = df_map1["place"].str.strip("[]")    ## remove square brackets from place names where present
+
+st.dataframe(df_map1)
 #df_map1_prepare = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()
 #st.write(len(df_map1_prepare)) 
 #df_map1_prepare = df_map1_prepare.drop_duplicates()
