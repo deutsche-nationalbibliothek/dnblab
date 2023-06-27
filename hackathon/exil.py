@@ -8,6 +8,7 @@ import pydeck as pdk
 
 
 df = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v6_corr.csv", sep=';', encoding="utf-8")
+coord = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v5.csv", encoding="utf-8")
 df1 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v4.csv", encoding="utf-8")
 df2 = pd.read_csv("hackathon/exilarchiv_monografien-mit-geoloc_v2.csv", encoding="utf-8")
 df2 = df2.dropna(subset="lat")
@@ -54,7 +55,9 @@ long=df1["long"].values[1]
 
 st.markdown("#### Darstellung aller Exil-Monografien im Set nach Häufigkeit der Verlagsorte") 
 
-df_map1 = df[['idn', 'Erscheinungsort', 'lat', 'long']].copy()  # extract neccessary columns from df
+df_map1 = df[['idn', 'Erscheinungsort'].copy()  # extract neccessary columns from df
+df_merge_map1 = pd.merge(df_map1, coord, on=['Erscheinungsort'], how="left")
+st.dataframe(df_merge_map1)
 df_map1 = df_map1.rename(columns={'Erscheinungsort': 'place'})  # rename column
 df_map1["place"] = df_map1["place"].str.strip("[]")    # remove square brackets from place names where present
 df_map1_1 = df_map1.drop_duplicates() # remove duplicate entries
