@@ -6,7 +6,7 @@ from streamlit_folium import folium_static
 import pydeck as pdk
 
 # load data:
-df_all = pd.read_csv("exilarchiv_data.csv", sep=';', encoding="utf-8")
+df_all = pd.read_csv("hackathon/exilarchiv_data.csv", sep=';', encoding="utf-8")
 # remove duplicates to get count for unique items:
 df_dedup = df_all.drop_duplicates(['idn'], keep='first')   # remove duplicate entries
 # delete all rows that don't have an entry for lat:
