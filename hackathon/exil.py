@@ -8,7 +8,9 @@ import pydeck as pdk
 # load data:
 df_all = pd.read_csv("hackathon/exilarchiv_data.csv", sep=';', encoding="utf-8")
 # remove duplicates to get count for unique items:
-df_dedup = df_all.drop_duplicates(['idn'], keep='first')   # remove duplicate entries
+df_dedup = df_all.drop_duplicates()   # remove duplicate entries
+#df_dedup = df_all.drop_duplicates(['idn'], keep='first')   # remove duplicate entries on idn - don't use, might also
+    #remove rows with same idn but different languages etc.
 # delete all rows that don't have an entry for lat:
 df = df_all.dropna(subset="lat")
 missing = len(df_all) - len(df)
