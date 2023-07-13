@@ -64,19 +64,16 @@ long = df["long"].values[5]
 
 st.markdown("#### Darstellung aller Exil-Monografien im Set nach Häufigkeit der Verlagsorte") 
 
+# create subset of data only including idn, pubplace, lat and long: 
 df_map1 = df[['idn', 'pubplace', 'lat', 'long']].copy()  # extract neccessary columns from df
-#st.write(len(df_map1))
-df_map1["pubplace"] = df_map1["pubplace"].str.strip("[]")
-# remove square brackets from place names where present
-#df_map1_1 = df_map1.drop_duplicates()  # remove duplicate entries
+#df_map1["pubplace"] = df_map1["pubplace"].str.strip("[]")
 
+# create new dataframe by grouping by "placename" and adding count of unique entries, 
+# then merge on "pubplace" to map lat and long to "placename" and create new dataframe without duplicates:
 df_map2 = df_map1.groupby(["pubplace"]).size().reset_index(name='counts')
-#st.dataframe(df_map2)
 dfmerge = pd.merge(df_map1, df_map2, on=['pubplace'], how="left")
 places = dfmerge.drop_duplicates(['pubplace'], keep='first')
-# st.dataframe(places)
 
-# st.map(places)
 layer = pdk.Layer(
     "ScatterplotLayer",
     places,
@@ -103,7 +100,7 @@ st.pydeck_chart(pdk.Deck(
         zoom=2,
         pitch=50,
     ),
-    tooltip={"text": "{place}\n{counts}"}
+    tooltip={"text": "{pubplace}\n{counts}"}
 ))
 
 st.write("Anzahl unterschiedlicher Ortsangaben im Datenset: ", len(df_map2))
@@ -118,8 +115,6 @@ st.write(" ")
 st.markdown("#### Darstellung der Verlagsorte nach Erscheinungsjahren")
 
 year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
-# year = str(year)
-
 df_query = df.query("Erscheinungsjahr == @year")
        
 m = folium.Map(location=[lat, long], zoom_start=2)
@@ -176,17 +171,18 @@ st.write(" ")
 st.markdown(" ##### Lust bekommen, mit den Daten eigene Visualisierungen auszuprobieren? ")
 st.markdown("Hier befindet sich unser Datenset zum Download: [DNBLab: Zugang zu Datensets und digitalen Objekte -"
             " Freie digitale Objektsammlungen](https://www.dnb.de/dnblabsets) ")
-
+st.write(" ")
 
 with st.expander("Methodik"):
-    st.write(""" 
-          Im Datenset sind ca. 21.000 verschiedenen Publikationen enthalten. Bei der Datenaufbereitung für diese App
+    st.write(f""" 
+          Im Datenset sind Einträge zu {publications} verschiedenen Publikationen enthalten. Bei der Datenaufbereitung für diese App
           wurden für solche Publikationen, denen mehrere Sprachen, Publikationsorte oder Verlage zugrunde liegen für 
-          jede Sprache, Publikationsort etc. ein eigener Eintrag zugeweisen, so dass diese Publikationen mehrfach in der
-          Excel-Tabelle enthalten sind. Insgesamt sind daher 27.953 Einträge zu verzeichnen. 
+          jede Sprache, jeden Publikationsort etc. ein eigener Eintrag zugeweisen, so dass diese Publikationen mehrfach in der
+          hier zugrunde liegenden Excel-Tabelle enthalten sind. Insgesamt sind daher 27.953 Einträge zu verzeichnen. 
           
           Nicht alle Publikationen verfügen über die Angabe eines Erscheinungs- oder Verlagsortes. Im Datensatz steht 
           in solchen Fällen häufig "s.l." oder eine Variante davon für "sine loco", also ohne Ortsangabe. Einträge
           mit diesem Vermerk können auf den Karten entsprechend nicht dargestellt werden. Dies gilt außerdem
-          für einige wenige weiteren Ortsangaben, deren Namen nicht eindeutig zuordnenbar waren.
+          für einige wenige weiteren Ortsangaben, deren Namen nicht eindeutig zuordnenbar waren. Diese Einträge werden  
+          in der Sidebar (links) anhand der "Anzahl Einträge ohne Ortsangabe" ausgewiesen.
              """)
