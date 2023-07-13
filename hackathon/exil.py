@@ -6,11 +6,14 @@ from streamlit_folium import folium_static
 import pydeck as pdk
 
 # load data:
-df_all = pd.read_csv("exilarchiv_data.csv", sep=';', encoding="utf-8")
+df_all = pd.read_csv("hackathon/exilarchiv_data.csv", sep=';', encoding="utf-8")
+# unique entries: 
+unique = df_all.drop_duplicates("idn")
+publications = len(unique)
 # delete all rows that don't have an entry for lat:
 df = df_all.dropna(subset="lat")   #This is mostly relevant for place entries "sine loco"
 missing = len(df_all) - len(df)
-# st.dataframe(df)
+
 
 
 # -- SIDEBAR --
@@ -20,16 +23,16 @@ with st.sidebar:
     st.write("Ziel des DNB-Hackathon-Projektes war es, in zwei Tagen einen Prototyp einer leicht nutzbaren App zu "
              "entwickeln, die die Erscheinungsorte der Exilmonografien auf einer Weltkarte anzeigt und weitere "
              "Informationen den interessierten Nutzer*innen bietet, die sie für ihre Forschungen benötigen. Hierzu "
-             "wurden die Metadaten der Exilmonografien (DNBLab - Datenset 07, ca. 30.000 Datensätze) "
+             "wurden die Metadaten der Exilmonografien (DNBLab - Datenset 07, ca. 20.000 Datensätze) "
              " genutzt werden. Unser Hackathon-Team besteht aus Dörte Asmussen, Kerstin Meinel, Stephanie Palek, "
              "Clemens Wahle, Maximilian Kähler und Jörn Hasenclever.")
     team = "https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab/main/hackathon/Team.jpg"
     st.image(team)
 
     st.write(" ")
-    st.write("Anzahl der im Datenset enthaltenen Einträge: ", len(df_all))
+    st.write("Anzahl der im Datenset enthaltenen Einträge: ", publications)
     st.write("Anzahl Einträge ohne Ortsangabe: ", missing)
-    st.markdown("Zuletzt aktualisiert: 06.07.2023")
+    st.markdown("Zuletzt aktualisiert: 13.07.2023")
     
 # st.info("Diese App entstand im ersten Hackathon der DNB.")
 
