@@ -6,7 +6,7 @@ from streamlit_folium import folium_static
 import pydeck as pdk
 
 # load data:
-df_all = pd.read_csv("hackathon/exilarchiv_data.csv", sep=';', encoding="utf-8")
+df_all = pd.read_csv("exilarchiv_data.csv", sep=';', encoding="utf-8")
 # unique entries: 
 unique = df_all.drop_duplicates("idn")
 publications = len(unique)
