@@ -182,6 +182,6 @@ with st.expander("Methodik"):
           
           Nicht alle Publikationen verfügen über die Angabe eines Erscheinungs- oder Verlagsortes. Im Datensatz steht 
           in solchen Fällen "s.l." bzw. eine Variante davon für "sine loco", also ohne Ortsangabe. Einträge
-          mit diesem Vermerk können auf den Karten entsprechend nicht dargestellt werden. Diese Einträge werden  
+          mit diesem Vermerk können auf den Karten entsprechend nicht dargestellt werden. Diese Einträge werden
           in der Sidebar (links) anhand der "Anzahl Einträge ohne Ortsangabe" ausgewiesen.
              """)
