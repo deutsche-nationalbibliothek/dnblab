@@ -19,7 +19,7 @@ if 'downclick' not in st.session_state:
     st.session_state.downclick = 0
 
 
-st.markdown("# Demoabfrage DNB-Daten über SRU<img src='https://files.dnb.de/DFG-Viewer/DNB-Logo-Viewer.jpg' align='right'>", unsafe_allow_html=True)
+st.markdown("# Demoabfrage DNB-Daten <img src='https://files.dnb.de/DFG-Viewer/DNB-Logo-Viewer.jpg' align='right'>", unsafe_allow_html=True)
 
 st.markdown("Hier können Sie die SRU-Schnittstelle der Deutschen Nationalbibliothek über einfache Formulareingaben "
         "abfragen. Wählen Sie dazu den Katalog, den Sie abfragen möchten und das Metadatenformat für die Ausgabe "
