@@ -3,34 +3,45 @@
 ## Beschreibung
 Die Deutsche Nationalbibliothek (www.dnb.de) bietet ihre bibliografischen Daten und mehrere digitale Objektsammlungen frei zugänglich an. Als zentraler Anlaufpunkt für die Präsentation, den Zugriff und die Nachnutzung der digitalen Ressourcen bietet das DNBLab www.dnb.de/dnblab einen Zugang zu unseren Daten sowie den freien Objektdateien und Volltexten. Zugang erhalten Sie über verschiedene Schnittstellen und Downloads.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deutsche-nationalbibliothek/dnblab/HEAD)
+
+
+
 ## Inhalte
 Unsere Online Coding Tutorials liegen als Jupyter Notebooks in der Programmiersprache Python vor. Nutzen Sie Ihre lokale Jupyter Umgebung oder eine virtuelle Umgebung wie https://mybinder.org/, um unsere Notebooks auszuführen: https://mybinder.org/v2/gh/deutsche-nationalbibliothek/dnblab/HEAD. 
+
 <br><b>Wie können Jupyter Notebooks im Browser aufgerufen und ausgeführt werden? </b></br>
-DNB_Jupyter_Notebooks_Kurzeinfuehrung.pdf</br>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deutsche-nationalbibliothek/dnblab/HEAD?filepath=DNB_Jupyter_Notebooks_Kurzeinfuehrung.pdf )
 
 ### Tutorials
 <b>Wie können Daten mittels der OAI-Schnittstelle abgerufen werden?</b>
 <br>DNB_OAI_Tutorials.ipynb</br>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deutsche-nationalbibliothek/dnblab/HEAD?filepath=DNB_OAI_Tutorials.ipynb)
 
 <br><b>Wie können Daten mittels der SRU-Schnittstelle abgerufen werden?</b>
 <br>DNB_SRU_Tutorial.ipynb</br>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deutsche-nationalbibliothek/dnblab/HEAD?filepath=DNB_SRU_Tutorial.ipynb)
 
 <br><b>Wie können MARC-Titel analysiert werden? </b>
 <br>DNB_Titelanalyse_MARC_Tutorial_Teil1.ipynb</br>
 DNB_Titelanalyse_MARC_Tutorial_Teil2.ipynb
+<br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deutsche-nationalbibliothek/dnblab/HEAD?filepath=DNB_Titelanalyse_MARC_Tutorial_Teil1.ipynb)
 
 <br><b>Wie können digitalisierte Inhaltsverzeichnisse abgerufen und analysiert werden?</b>
 <br>DNB_digitale_Inhaltsverzeichnisse_Tutorial.ipynb</br>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deutsche-nationalbibliothek/dnblab/HEAD?filepath=DNB_digitale_Inhaltsverzeichnisse_Tutorial.ipynb)
 
 <br><b>Wie können Daten aufbereitet und visualisiert werden?</b>
 <br>DNB_Visualisierung_Tutorial.ipynb</br>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deutsche-nationalbibliothek/dnblab/HEAD?filepath=DNB_Visualisierung_Tutorial.ipynb)
 
 <br><b>Wie können Audio-Dateien abgerufen und analysiert werden?</b>
 <br>DNB_Audio_Tutorial.ipynb</br>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deutsche-nationalbibliothek/dnblab/HEAD?filepath=DNB_Audio_Tutorial.ipynb)
 
 <br><b>Demoabfrage der SRU Schnittstelle</b></br>
 DNB_Testabfrage_SRU.ipynb
-<br>https://share.streamlit.io/deutsche-nationalbibliothek/dnblab/main/DNB_Testabfrage.py</br>
+<br>[DEMO](https://dnb-sru-demo.streamlit.app/)</br>
 
 <br><b>Datenset zur Nutzung mit dem Tutorial zur MARC-Titeldatenanalyse</br></b>
 dataset_tutorial_eco.xml
