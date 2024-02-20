@@ -7,14 +7,13 @@ import pydeck as pdk
 
 # load data:
 df_all = pd.read_csv("hackathon/exilarchiv_data.csv", sep=';', encoding="utf-8")
-# remove duplicates to get count for unique items:
-df_dedup = df_all.drop_duplicates()   # remove duplicate entries
-#df_dedup = df_all.drop_duplicates(['idn'], keep='first')   # remove duplicate entries on idn - don't use, might also
-    #remove rows with same idn but different languages etc.
+# unique entries: 
+unique = df_all.drop_duplicates("idn")
+publications = len(unique)
 # delete all rows that don't have an entry for lat:
-df = df_all.dropna(subset="lat")
+df = df_all.dropna(subset="lat")   #This is mostly relevant for place entries "sine loco"
 missing = len(df_all) - len(df)
-# st.dataframe(df)
+
 
 
 # -- SIDEBAR --
@@ -24,16 +23,16 @@ with st.sidebar:
     st.write("Ziel des DNB-Hackathon-Projektes war es, in zwei Tagen einen Prototyp einer leicht nutzbaren App zu "
              "entwickeln, die die Erscheinungsorte der Exilmonografien auf einer Weltkarte anzeigt und weitere "
              "Informationen den interessierten Nutzer*innen bietet, die sie für ihre Forschungen benötigen. Hierzu "
-             "wurden die Metadaten der Exilmonografien (DNBLab - Datenset 07, ca. 30.000 Datensätze) "
+             "wurden die Metadaten der Exilmonografien (DNBLab - Datenset 07, ca. 20.000 Datensätze) "
              " genutzt werden. Unser Hackathon-Team besteht aus Dörte Asmussen, Kerstin Meinel, Stephanie Palek, "
              "Clemens Wahle, Maximilian Kähler und Jörn Hasenclever.")
     team = "https://raw.githubusercontent.com/deutsche-nationalbibliothek/dnblab/main/hackathon/Team.jpg"
     st.image(team)
 
     st.write(" ")
-    st.write("Anzahl der im Datenset enthaltenen Publikationen: ", len(df_dedup))
-    # st.write("Anzahl Einträge ohne Ortsangabe: ", missing)
-    st.markdown("Zuletzt aktualisiert: 28.06.2023")
+    st.write("Anzahl der im Datenset enthaltenen Einträge: ", publications)
+    st.write("Anzahl Einträge ohne Ortsangabe: ", missing)
+    st.markdown("Zuletzt aktualisiert: 13.07.2023")
     
 # st.info("Diese App entstand im ersten Hackathon der DNB.")
 
@@ -65,18 +64,16 @@ long = df["long"].values[5]
 
 st.markdown("#### Darstellung aller Exil-Monografien im Set nach Häufigkeit der Verlagsorte") 
 
+# create subset of data only including idn, pubplace, lat and long: 
 df_map1 = df[['idn', 'pubplace', 'lat', 'long']].copy()  # extract neccessary columns from df
-df_map1 = df_map1.rename(columns={'pubplace': 'place'})  # rename column
-df_map1["place"] = df_map1["place"].str.strip("[]")    # remove square brackets from place names where present
-df_map1_1 = df_map1.drop_duplicates()  # remove duplicate entries
+#df_map1["pubplace"] = df_map1["pubplace"].str.strip("[]")
 
-df_map1_2 = df_map1_1.groupby(["place"]).size().reset_index(name='counts')
-# st.dataframe(df_map1_2)
-dfmerge = pd.merge(df_map1_1, df_map1_2, on=['place'], how="left")
-places = dfmerge.drop_duplicates(['place'], keep='first')
-# st.dataframe(places)
+# create new dataframe by grouping by "placename" and adding count of unique entries, 
+# then merge on "pubplace" to map lat and long to "placename" and create new dataframe without duplicates:
+df_map2 = df_map1.groupby(["pubplace"]).size().reset_index(name='counts')
+dfmerge = pd.merge(df_map1, df_map2, on=['pubplace'], how="left")
+places = dfmerge.drop_duplicates(['pubplace'], keep='first')
 
-# st.map(places)
 layer = pdk.Layer(
     "ScatterplotLayer",
     places,
@@ -103,10 +100,10 @@ st.pydeck_chart(pdk.Deck(
         zoom=2,
         pitch=50,
     ),
-    tooltip={"text": "{place}\n{counts}"}
+    tooltip={"text": "{pubplace}\n{counts}"}
 ))
 
-st.write("Anzahl unterschiedlicher Ortsangaben im Datenset: ", len(df_map1_2))
+st.write("Anzahl unterschiedlicher Ortsangaben im Datenset: ", len(df_map2))
 
 st.markdown("Zu den [Exil-Monografien im Katalog der Deutschen Nationalbibliothek]"
             "(https://portal.dnb.de/opac.htm?query=catalog%3Ddnb.dea.exilpub&method=simpleSearch&cqlMode=true)")
@@ -118,8 +115,6 @@ st.write(" ")
 st.markdown("#### Darstellung der Verlagsorte nach Erscheinungsjahren")
 
 year = st.slider('Wählen Sie eine Jahreszahl', 1933, 1950)
-# year = str(year)
-
 df_query = df.query("Erscheinungsjahr == @year")
        
 m = folium.Map(location=[lat, long], zoom_start=2)
@@ -176,3 +171,17 @@ st.write(" ")
 st.markdown(" ##### Lust bekommen, mit den Daten eigene Visualisierungen auszuprobieren? ")
 st.markdown("Hier befindet sich unser Datenset zum Download: [DNBLab: Zugang zu Datensets und digitalen Objekte -"
             " Freie digitale Objektsammlungen](https://www.dnb.de/dnblabsets) ")
+st.write(" ")
+
+with st.expander("Methodik"):
+    st.write(f""" 
+          Im Datenset sind Einträge zu {publications} verschiedenen Publikationen enthalten. Bei der Datenaufbereitung für diese App
+          wurden für solche Publikationen, denen mehrere Sprachen, Publikationsorte oder Verlage zugrunde liegen für 
+          jede Sprache, jeden Publikationsort etc. ein eigener Eintrag zugeweisen, so dass diese Publikationen mehrfach in der
+          hier zugrunde liegenden Excel-Tabelle enthalten sind. Insgesamt sind daher 27.953 Einträge zu verzeichnen. 
+          
+          Nicht alle Publikationen verfügen über die Angabe eines Erscheinungs- oder Verlagsortes. Im Datensatz steht 
+          in solchen Fällen "s.l." bzw. eine Variante davon für "sine loco", also ohne Ortsangabe. Einträge
+          mit diesem Vermerk können auf den Karten entsprechend nicht dargestellt werden. Diese Einträge werden
+          in der Sidebar (links) anhand der "Anzahl Einträge ohne Ortsangabe" ausgewiesen.
+             """)

@@ -1,0 +1,852 @@
+,pubplace,counts
+0,'S-Gravenhage,1
+1,'s-Graveland,1
+2,'s-Gravenhage,1
+3,'s-Gravenhage Den Haag,1
+4,'s-Hertogenbosch,1
+5,Aachen,1
+6,Aalborg,1
+7,Aarau,1
+8,Aarhus,1
+9,Aberdeen,1
+10,Adana,1
+11,Adelaide,1
+12,Affoltern a. A.,1
+13,Affoltern a.A.,1
+14,Afula,1
+15,Agen,1
+16,Akureyri,1
+17,"Albany, NY",1
+18,"Albany, New York",1
+19,Albuquerque,1
+20,"Albuquerque, New Mexico",1
+21,"Aldington, Kent",1
+22,Alexandrie,1
+23,Alger,1
+24,"Allentown, Pa.",1
+25,"Amagansett, NY",1
+26,Amberg,1
+27,"Ames, Iowa",1
+28,Amstedam,1
+29,Amsterdam,1
+30,"Andover, Mass.",1
+31,Ankara,1
+32,Ann Arbor,1
+33,"Ann Arbor, MI",1
+34,"Ann Arbor, Mich.",1
+35,"Ann Arbor, Michigan",1
+36,Annemasse,1
+37,Antwerpen,1
+38,Anvers,1
+39,Arbon,1
+40,Arlington,1
+41,Arnhem,1
+42,Ascona,1
+43,Assen,1
+44,Athen,1
+45,Athenes,1
+46,Athens,1
+47,Atlanta,1
+48,"Atlanta, Ga.",1
+49,Auckland,1
+50,"Aurora, NY",1
+51,"Aurora, New York",1
+52,Aussig,1
+53,Avila,1
+54,Baarn,1
+55,Bad Mergentheim,1
+56,Bad Neuenahr,1
+57,Badalona,1
+58,Baden,1
+59,Bahia,1
+60,Baltimore,1
+61,"Baltimore, Maryl.",1
+62,"Baltimore, Md.",1
+63,Bamberg,1
+64,Barcelona,1
+65,Bari,1
+66,Baroda,1
+67,Basel,1
+68,Batavia,1
+69,Baton Rouge,1
+70,"Baton Rouge, La.",1
+71,Belfast,1
+72,Belgrad,1
+73,Belgrade,1
+74,Ben Shemen,1
+75,Beograd,1
+76,Bergen,1
+77,Berkeley,1
+78,"Berkeley, Calif",1
+79,"Berkeley, Calif.",1
+80,"Berkeley, California",1
+81,Berkley,1
+82,Berlin,1
+83,Bern,1
+84,Berne,1
+85,"Berne, In",1
+86,"Berne, USA",1
+87,"Bethesda, Md.",1
+88,"Bethlehem, PA",1
+89,"Beverly Hills, Calif.",1
+90,"Beverly Hills, California",1
+91,Bickley,1
+92,Biel,1
+93,Bielefeld,1
+94,Bilthoven,1
+95,"Binghamton, New York",1
+96,Bloemendaal,1
+97,"Bloomington, Ill.",1
+98,"Bloomington, Ind.",1
+99,"Bloomington, Indiana",1
+100,Bochum,1
+101,Bodenbach,1
+102,Bogota,1
+103,Bogotà,1
+104,Bologna,1
+105,Bombay,1
+106,Bonn,1
+107,Bornholm,1
+108,Borås,1
+109,Boston,1
+110,"Boston, Mass.",1
+111,"Boston, Massachusetts",1
+112,"Boulder, Colo.",1
+113,"Boulder, Colorado",1
+114,Bradford,1
+115,Bratislava,1
+116,"Bratislava, Pozsony",1
+117,Bremen,1
+118,Brescia,1
+119,Breslau,1
+120,Brisbane,1
+121,Bristol,1
+122,Brixlegg,1
+123,Brno,1
+124,Brooklyn,1
+125,"Brooklyn, NY",1
+126,Bruges,1
+127,Brugge,1
+128,Brussel,1
+129,Brussels,1
+130,Bruxelles,1
+131,Bruxelles Brüssel,1
+132,"Bryn Mawr, Pennsylvania",1
+133,Brünn,1
+134,Brüssel,1
+135,Bucureşti,1
+136,Bucureṣti,1
+137,Budapest,1
+138,Buenos Aires,1
+139,"Buffalo, NY",1
+140,Bujumbura,1
+141,Bukarest,1
+142,"Burlington, Vt.",1
+143,Burnley,1
+144,Bussum,1
+145,"Bussum, Holland",1
+146,Bâle,1
+147,Cadole,1
+148,Cairo,1
+149,Calcutta,1
+150,Cambridge,1
+151,"Cambridge, England",1
+152,"Cambridge, Mass",1
+153,"Cambridge, Mass.",1
+154,"Cambridge, Massachusetts",1
+155,Canberra,1
+156,Cape Town,1
+157,Capetown,1
+158,Caracas,1
+159,Cardiff,1
+160,Carlton,1
+161,"Carlton, Victoria",1
+162,"Cary, N.C.",1
+163,Casablanca,1
+164,Cassarate,1
+165,Celerina,1
+166,Cernăuti,1
+167,Cernǎuţi,1
+168,Chapel Hill,1
+169,"Chapel Hill, NC",1
+170,Charkiv,1
+171,Charkow,1
+172,Chascomus,1
+173,Chascomús,1
+174,Cheam,1
+175,Cheltenham,1
+176,Chemnitz,1
+177,Chicago,1
+178,"Chicago, Ill.",1
+179,"Chicago, Illinois",1
+180,Christchurch,1
+181,Cincinnati,1
+182,"Cincinnati, Ohio",1
+183,Città del Vaticano,1
+184,Ciudad de México,1
+185,"Claremont, Calif.",1
+186,Cleveland,1
+187,"Cleveland, OH",1
+188,"Cleveland, Ohio",1
+189,Cochabamba,1
+190,"Cold Spring Harbor, NY",1
+191,"College Park, Md.",1
+192,Colmar,1
+193,"Colorado Springs, Colo.",1
+194,"Columbus, Ohio",1
+195,Copenhagen,1
+196,Copenhague,1
+197,Cork,1
+198,Cortona,1
+199,Crimmitschau,1
+200,"Crompond, NY",1
+201,Curitiba,1
+202,Czernowitz,1
+203,Dallas,1
+204,"Dallas, Tex.",1
+205,"Darien, Conn.",1
+206,Darmstadt,1
+207,De Bilt,1
+208,Delft,1
+209,Den Haag,1
+210,Den-Haag,1
+211,Denmark,1
+212,Detroit,1
+213,"Detroit, Mich.",1
+214,Deventer,1
+215,Diekirch,1
+216,Dijon,1
+217,Djakarta,1
+218,Dortmund,1
+219,"Dover, New Hampshire",1
+220,Dresden,1
+221,Dublin,1
+222,Durban,1
+223,Durham,1
+224,"Durham, NC",1
+225,"Durham, North Carolina",1
+226,Düsseldorf,1
+227,East Lansing,1
+228,"East Lansing, Mich.",1
+229,Eastbourne,1
+230,"Eau Claire, Wis.",1
+231,Edinburg,1
+232,Edinburgh,1
+233,Einsiedeln,1
+234,Elgg,1
+235,"Elgg, Zürich",1
+236,"Emmaus, Pa.",1
+237,"Emmaus, Pennsylvania",1
+238,Enfield,1
+239,"Enfield, Middlesex",1
+240,Engels,1
+241,"Englewood, N. J.",1
+242,Erlenbach,1
+243,Esch,1
+244,Esch-sur-Alzette,1
+245,Evanston,1
+246,"Evanston, Il.",1
+247,"Evanston, Ill.",1
+248,Ewell,1
+249,"Ewell, England",1
+250,Exeter,1
+251,"Federalsburg, Md.",1
+252,Firenze,1
+253,France,1
+254,Frankfurt,1
+255,Frankfurt a. M.,1
+256,Frankfurt a. Main,1
+257,Frankfurt a.M.,1
+258,Frankfurt am Main,1
+259,Frauenfeld,1
+260,Fredericia,1
+261,Freiburg,1
+262,Freiburg i. Br.,1
+263,Freiburg im Breisgau,1
+264,Fribourg,1
+265,Frome,1
+266,"Fulton, New York",1
+267,Garden City,1
+268,"Garden City, N.Y.",1
+269,"Garden City, NY",1
+270,"Garden City, New York",1
+271,Geneva,1
+272,Geneve,1
+273,Genf,1
+274,Gent,1
+275,Genève,1
+276,Genéve,1
+277,Gerusalemme,1
+278,Girard,1
+279,"Girard, Kansas",1
+280,Givʿat-Ḥayyîm,1
+281,Glarus,1
+282,Glasgow,1
+283,Gleiwitz,1
+284,"Glencoe, Ill.",1
+285,Goldern-Hasliberg,1
+286,Gorinchem,1
+287,"Grand Rapids, Mich.",1
+288,Graz,1
+289,Greenford,1
+290,"Greensboro, NC",1
+291,Grenoble,1
+292,"Grinnell, Iowa",1
+293,Groningen,1
+294,Großbritannien,1
+295,Guatemala,1
+296,Guatemala City,1
+297,Guildford,1
+298,Göteborg,1
+299,Haag,1
+300,Haarlem,1
+301,Habana,1
+302,"Hackensack, N.J.",1
+303,Haifa,1
+304,Halle,1
+305,Hamburg,1
+306,Hangzhou,1
+307,"Hanover, NH",1
+308,Harlem,1
+309,Harmondsworth,1
+310,Harrisburg,1
+311,"Harrisburg, Pa.",1
+312,"Harrisburg, Pennsylvania",1
+313,Hartenstein,1
+314,Harwell,1
+315,Havanna,1
+316,Heemstede,1
+317,Heerlen,1
+318,Heidelberg,1
+319,Heidenau,1
+320,Hellerau,1
+321,Helsingfors,1
+322,Helsingfors Helsinki,1
+323,Helsinki,1
+324,Herisau,1
+325,Herzlia,1
+326,Herzliya,1
+327,Hildesheim,1
+328,Hilversum,1
+329,"Hinsdale, Ill.",1
+330,Hollywood,1
+331,"Hollywood, Calif.",1
+332,Hong Kong,1
+333,Hoorn,1
+334,Hradec Králove,1
+335,Hradec Králové,1
+336,Hämeenlinna,1
+337,Hässleholm,1
+338,Ijui,1
+339,Indianapolis,1
+340,"Indianapolis, Ind.",1
+341,Indore,1
+342,Innsbruck,1
+343,"Iowa City, Iowa",1
+344,Irkutsk,1
+345,"Irvington-on-Hudson, New York",1
+346,Island,1
+347,Isle of Man,1
+348,Istanbul,1
+349,Ithaca,1
+350,"Ithaca, NY",1
+351,"Ithaca, New York",1
+352,Jaffa,1
+353,Japan,1
+354,Jena,1
+355,Jerusalem,1
+356,Johannesburg,1
+357,Jyväskyla,1
+358,Jyväskylä,1
+359,Jérusalem,1
+360,Kadıköy,1
+361,Kairo,1
+362,Kanda,1
+363,"Kansas City, Kan",1
+364,"Kansas City, Kan.",1
+365,Karlin,1
+366,Karlsbad,1
+367,Katowice,1
+368,Kaunas,1
+369,Kazan,1
+370,"Kenosha, Wis.",1
+371,"Kenosha, Wisc.",1
+372,Kiel,1
+373,Kiev,1
+374,Kiew,1
+375,"Kingsport, Tenn.",1
+376,Kirov,1
+377,Kjøbenhavn,1
+378,Klagenfurt,1
+379,Kobenhavn,1
+380,Kolding,1
+381,Kolín,1
+382,Konstanz,1
+383,Kopenhagen,1
+384,Kraków,1
+385,Krasnoufimsk,1
+386,Kyiv,1
+387,Köln,1
+388,Königsberg,1
+389,København,1
+390,Køpenhavn,1
+391,La @Plata,1
+392,La Habana,1
+393,La Haya,1
+394,La Paz,1
+395,La Plata,1
+396,"Lafayette, Ind.",1
+397,"Lake Success, N.Y.",1
+398,"Lake Success, NY",1
+399,"Lake Success, New York",1
+400,Lancaster,1
+401,"Lancaster, Pa.",1
+402,Langemark,1
+403,"Langhorne, Pa.",1
+404,Laren,1
+405,Lausanne,1
+406,Le Caire,1
+407,Leeds,1
+408,Leicester,1
+409,Leiden,1
+410,Leipzig,1
+411,Leningrad,1
+412,"Lewes, Sussex",1
+413,Leyden,1
+414,León,1
+415,Lichtental,1
+416,Liepājā,1
+417,Liestal,1
+418,Lima,1
+419,"Lincoln, Neb.",1
+420,Linz,1
+421,Lisboa,1
+422,Liverpool,1
+423,Liège,1
+424,Ljubljana,1
+425,Locarno,1
+426,Lochem,1
+427,Lodon,1
+428,Londen,1
+429,London,1
+430,Londra,1
+431,Londres,1
+432,Lons-le-Saunier,1
+433,Los Angeles,1
+434,"Los Angeles, Calif",1
+435,"Los Angeles, Calif.",1
+436,"Los Angeles, California",1
+437,Lourdes,1
+438,Louvain,1
+439,Lucca,1
+440,"Lucero, México",1
+441,Lugano,1
+442,Lund,1
+443,Luxemburg,1
+444,Luzac,1
+445,Luzern,1
+446,Lwow,1
+447,Lwów,1
+448,Lyon,1
+449,M. Ostrau,1
+450,M.-Ostrau,1
+451,Maastricht,1
+452,Madison,1
+453,"Madison, NJ",1
+454,"Madison, WI",1
+455,"Madison, Wis.",1
+456,"Madison, Wisconsin",1
+457,Madras,1
+458,Madrid,1
+459,Mailand,1
+460,Malmö,1
+461,Manchester,1
+462,Marienbad,1
+463,Mariestad,1
+464,Marseille,1
+465,Mechelen,1
+466,Melbourne,1
+467,"Menasha, Wis.",1
+468,"Menasha, Wis., USA",1
+469,"Menasha, Wiss",1
+470,Merano,1
+471,Merhāvyā,1
+472,Merḥavya,1
+473,Merḥavyah,1
+474,Merḥavyā,1
+475,Merḥāvyā,1
+476,Mexico,1
+477,Mexico D. F.,1
+478,"Mexico, D.F.",1
+479,Mexiko,1
+480,"Miami, Florida",1
+481,Middelburg,1
+482,"Middlesex, N.J.",1
+483,"Middletown, Conn.",1
+484,Milano,1
+485,Milano Mailand,1
+486,Milwaukee,1
+487,"Milwaukee, USA",1
+488,Minneapolis,1
+489,"Minneapolis, Minn.",1
+490,Minsk,1
+491,Molano,1
+492,Monaco,1
+493,Montevideo,1
+494,"Monticello, NY",1
+495,Montreal,1
+496,Montréal,1
+497,Morriston,1
+498,Moscou,1
+499,Moscow,1
+500,Moscow Moskau,1
+501,Moskau,1
+502,Moskva,1
+503,Moszkva,1
+504,Mount Carmel,1
+505,Mount Vernon,1
+506,"Mount Vernon, N. Y.",1
+507,"Mount Vernon, NY",1
+508,"Mount Vernon, New York",1
+509,Muiderberg,1
+510,Mukačevo,1
+511,Mährisch-Ostrau,1
+512,México,1
+513,München,1
+514,Münster,1
+515,NJ,1
+516,NY,1
+517,Naarden,1
+518,Nahariya,1
+519,Nairobi,1
+520,"Nashville, Tenn.",1
+521,Neuchatel,1
+522,Neuchâtel,1
+523,New Brunswick,1
+524,New Haven,1
+525,"New Haven, Conn.",1
+526,"New Haven, NY",1
+527,New York,1
+528,New York City,1
+529,"New York City, NY",1
+530,New York NY,1
+531,"New York, N. Y.",1
+532,"New York, NY",1
+533,"New York, NY.",1
+534,"Newark, NY",1
+535,Nice,1
+536,Nijkerk,1
+537,Nijmegen,1
+538,Norfolk,1
+539,"Norfolk, Conn.",1
+540,Norrköping,1
+541,"Northampton, Mass.",1
+542,"Norwich, Vt.",1
+543,"Notre Dame, Ind.",1
+544,"Notre Dame, Indiana",1
+545,Novi Sad,1
+546,Novosibirsk,1
+547,Nueva York,1
+548,Nybro,1
+549,Nürnberg,1
+550,"Oak Ridge, Tenn.",1
+551,Oakland,1
+552,"Oakland, Calif.",1
+553,"Oakland, California",1
+554,"Oberlin, Ohio",1
+555,Odessa,1
+556,Offenbach,1
+557,Ogiz,1
+558,Ohio,1
+559,Oldenburg,1
+560,Oldenzaal,1
+561,"Oldenzaal, Holland",1
+562,"Olney, Md.",1
+563,Olomouc,1
+564,Olten,1
+565,Oslo,1
+566,Osorno,1
+567,Ostermundigen,1
+568,Ostrava,1
+569,Ottawa,1
+570,Overveen,1
+571,"Owings Mills, Maryland",1
+572,Oxford,1
+573,Padova,1
+574,Padua,1
+575,Palermo,1
+576,Palestine,1
+577,"Palo Alto, Calif.",1
+578,Panama,1
+579,Paris,1
+580,Pariž,1
+581,Parma,1
+582,Pará,1
+583,"Pasadena, Calif.",1
+584,Peiping,1
+585,Peking,1
+586,"Peoria, Ill.",1
+587,Perth,1
+588,Philadelphia,1
+589,"Philadelphia, PA",1
+590,"Philadelphia, Pa.",1
+591,"Philadelphia, Penna.",1
+592,Pittsburgh,1
+593,"Pittsburgh, Pa.",1
+594,Pleasantville,1
+595,Plymouth,1
+596,Poona,1
+597,Portland,1
+598,"Portland, Me.",1
+599,Porto,1
+600,Porto Alegre,1
+601,Porvoo,1
+602,Potsdam,1
+603,Poughkeepsie,1
+604,"Poughkeepsie, NY",1
+605,Poznan,1
+606,Prag,1
+607,Prague,1
+608,Praha,1
+609,Prahran,1
+610,Praze,1
+611,Pretoria,1
+612,Princeton,1
+613,Princeton N.J.,1
+614,"Princeton, N. J.",1
+615,"Princeton, N.J.",1
+616,"Princeton, NJ",1
+617,"Princeton, New Jersey",1
+618,Providence,1
+619,"Providence, R. I.",1
+620,"Providence, RI",1
+621,"Provincetown, Mass.",1
+622,Purmerend,1
+623,Putten,1
+624,Pòrto Alegre,1
+625,Pôrto,1
+626,Pôrto Alegre,1
+627,Quito,1
+628,"Racine, Wis.",1
+629,"Rahway, NJ",1
+630,Ramat Efal,1
+631,Ramat Gan,1
+632,Rangeley,1
+633,Rapperswill,1
+634,Recife,1
+635,Redhill,1
+636,"Regina, Sask., Canada",1
+637,"Rehovot, Israel",1
+638,Reichenberg,1
+639,Reutlingen,1
+640,Reykjavik,1
+641,Reykjavík,1
+642,Rheinfelden,1
+643,"Richmond, VA",1
+644,"Richmond, Va.",1
+645,Riga,1
+646,Rigā,1
+647,Rijeka,1
+648,Rijswijk,1
+649,Rio de Janeiro,1
+650,"Rochester, N. Y.",1
+651,"Rockville, Md.",1
+652,Rom,1
+653,Roma,1
+654,Romae,1
+655,Rome,1
+656,"Ronco, Ascona",1
+657,Rosario,1
+658,"Roslyn, NY",1
+659,Rotterdam,1
+660,"Rüschlikon, Zürich",1
+661,Rīgā,1
+662,S. Paulo,1
+663,S. l. @,1
+664,S.l @,1
+665,S.l.,1
+666,S.l. @,1
+667,Saarbrücken,1
+668,Saarlouis,1
+669,Saint Louis,1
+670,"Saint Louis, Mo.",1
+671,Saint Paul,1
+672,Saint-Alphonse-de-Granby,1
+673,Salzburg,1
+674,San Clemente,1
+675,San Diego,1
+676,San Francisco,1
+677,"San Francisco, Calif.",1
+678,Sankt Gallen,1
+679,Santander,1
+680,Santiago,1
+681,Santiago de Chile,1
+682,Santpoort,1
+683,Sao Paulo,1
+684,Schaffhausen,1
+685,Schanghai,1
+686,Scheveningen,1
+687,Schlieren,1
+688,Schweden,1
+689,Schweiz,1
+690,Schwäbisch Gmünd,1
+691,Scottdale,1
+692,Seattle,1
+693,"Seattle, Wash.",1
+694,Shanghai,1
+695,Sheffield,1
+696,Sidney,1
+697,Sint-Niklaas,1
+698,Skive,1
+699,Sofija,1
+700,Solothurn,1
+701,"Somerville, NJ",1
+702,South Devon,1
+703,Southampton,1
+704,Spain,1
+705,"Springfield, Ill.",1
+706,St Gallen,1
+707,St. Alban,1
+708,St. Albans,1
+709,St. Gallen,1
+710,St. Louis,1
+711,"St. Louis, Mo.",1
+712,"St. Paul, Minn.",1
+713,"Stamford, Conn.",1
+714,Stanford,1
+715,"Stanford, Calif.",1
+716,"Stanford, California",1
+717,"State College, Pa.",1
+718,Sthlm Stockholm,1
+719,Stockholm,1
+720,Strasbourg,1
+721,Strassburg,1
+722,Straßburg,1
+723,Stroud,1
+724,Stuttgart,1
+725,"Summit, N. J.",1
+726,Sverdlovsk,1
+727,"Swarthmore, Pa.",1
+728,Sweden,1
+729,Sydney,1
+730,"Sydney, NSW",1
+731,"Syracuse, NY",1
+732,Szeged,1
+733,Sáo Paulo,1
+734,São Paulo,1
+735,Södertälje,1
+736,Taibei Shi,1
+737,Tampere,1
+738,Tartu,1
+739,Tartu Dorpat,1
+740,Taškent,1
+741,Tehran,1
+742,Tel Aviv,1
+743,Tel-Aviv,1
+744,Tetschen,1
+745,Texas,1
+746,Thayngen,1
+747,The Hague,1
+748,Thun,1
+749,Tilburg,1
+750,Timisoara-Temesvar,1
+751,Tokyo,1
+752,"Toledo, Ohio",1
+753,Tomsk,1
+754,Tonbridge,1
+755,Torino,1
+756,Toronto,1
+757,"Toronto, Ont.",1
+758,Torquay,1
+759,Totnes,1
+760,Toulouse,1
+761,Trichinopoly,1
+762,Trichy,1
+763,Trondheim,1
+764,"Troy, NY",1
+765,Trujillo,1
+766,"Tulsa, Okla.",1
+767,Turin,1
+768,Turkey,1
+769,Tübingen,1
+770,Tēl- Āvîv,1
+771,Tēl-Avîv,1
+772,Tēl-Ābīb,1
+773,Tēl-Āvîv,1
+774,Tōkyō,1
+775,Ulm,1
+776,Uppsala,1
+777,Upsala,1
+778,Urbana,1
+779,"Utica, NY",1
+780,Utrecht,1
+781,Valdivia,1
+782,Valencia,1
+783,Valparaiso,1
+784,Vastervik,1
+785,Verona,1
+786,Vevey,1
+787,Vienna,1
+788,Villeneuve-les-Avignon,1
+789,Voorhout,1
+790,Västerås,1
+791,"Wallingford, Pennsylvania",1
+792,Warszawa,1
+793,Warše,1
+794,Washington,1
+795,"Washington, D. C.",1
+796,"Washington, D.C.",1
+797,"Washington, DC",1
+798,Wassenaar,1
+799,Weimar,1
+800,Wellington,1
+801,"Wellington, NZ",1
+802,Welwyn Garden City,1
+803,West Drayton,1
+804,"Westminster, Md.",1
+805,"Weybridge, Surrey",1
+806,"White Plains, NY",1
+807,Wien,1
+808,Wiesbaden,1
+809,"Winchester, Mass.",1
+810,"Winfield, Kan.",1
+811,Winnipeg,1
+812,Winterthur,1
+813,Wisconsin,1
+814,"Woodstock, Vt.",1
+815,Worcester,1
+816,"Worcester, Mass.",1
+817,Wormerveer,1
+818,Worms,1
+819,Yerushalayim,1
+820,York,1
+821,"York, Penn.",1
+822,"York, Pennsylvania",1
+823,Zaandam,1
+824,Zagreb,1
+825,Zeist,1
+826,Zollikon,1
+827,Zurich,1
+828,Zutphen,1
+829,"Zutphen, Holland",1
+830,Zwolle,1
+831,Zürich,1
+832,s'Gravenhage,1
+833,s-Gravenhage,1
+834,s. l. @,1
+835,s.l @,1
+836,s.l. @,1
+837,Ägypten,1
+838,Örebro,1
+839,Český Těšín,1
+840,İstanbul,1
+841,ʾÊn-.Hărôd,1
+842,ʿEn-Ḥārôd,1
+843,ʿÊn Ḥǎrôd,1
+844,ʿÊn-.Hārôd,1
+845,ʿÊn-Gēv,1
+846,ʿÊn-Ḥarôd,1
+847,ʿÊn-Ḥārôd,1
+848,ʿÊn-Ḥărôd,1
+849,Ḥulātā,1
+850,Ỉstanbul,1
