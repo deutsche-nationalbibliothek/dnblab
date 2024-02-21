@@ -21,3 +21,9 @@ altair
 wget
 essentia
 wordcloud
+gensim
+spaCy
+pyLDAvis
+tables
+pyarrow
+matplotlib
