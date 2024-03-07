@@ -27,3 +27,4 @@ pyLDAvis
 tables
 pyarrow
 matplotlib
+jupyter-ai>=1.0,<2.0
