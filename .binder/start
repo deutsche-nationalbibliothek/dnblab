@@ -1,5 +1,0 @@
-#!/bin/bash
-# This script will be executed when Binder starts
-echo "Setting up Jupyter AI API key..."
-export JUPYTER_AI_API_KEY=${JUPYTER_AI_API_KEY}
-echo "API key set!"
