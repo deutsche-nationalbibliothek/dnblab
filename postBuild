@@ -1,13 +1,12 @@
 # postBuild
 
-# Enable the jupyter-ai extension
-jupyter serverextension enable --py jupyter_ai
-jupyter nbextension install --py jupyter_ai --sys-prefix
-jupyter nbextension enable --py jupyter_ai --sys-prefix
+# Create jupyter_ai_config.yml with default settings
+echo "openai:" >> jupyter_ai_config.yml
+echo "  default_llm: openai:gpt-3.5-turbo" >> jupyter_ai_config.yml
+echo "  default_embedding_model: openai:embed-gpt-3.5-turbo" >> jupyter_ai_config.yml
 
-# Load jupyter_ai_config.py
-echo "Executing jupyter_ai_config.py"
-python jupyter_ai_config.py
+# Debugging statement
+echo "jupyter_ai_config.yml created with default settings"
 
 # Debugging statements
 echo "postBuild script executed"
