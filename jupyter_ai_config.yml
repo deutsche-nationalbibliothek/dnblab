@@ -1,0 +1,3 @@
+openai:
+  default_llm: openai:gpt-3.5-turbo
+  default_embedding_model: openai:embed-gpt-3.5-turbo
