@@ -1,0 +1,30 @@
+name: Binder Build
+
+on:
+  push:
+    branches:
+      - main  # Adjust this to your default branch name
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          pip install jupyter-repo2docker
+
+      - name: Build Binder image
+        env:
+          OPENAI_API_KEY: ${{ secrets.JUPYTER_AI_API_KEY }}
+        run: |
+          jupyter-repo2docker --no-run --user-name=jovyan --user-id=1000 --image-name=mybinder . \
+          && docker run -e OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }} mybinder /bin/bash -c "source ~/.bashrc && jupyter notebook"
