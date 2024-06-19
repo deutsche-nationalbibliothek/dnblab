@@ -27,4 +27,4 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.JUPYTER_AI_API_KEY }}
         run: |
           jupyter-repo2docker --no-run --user-name=jovyan --user-id=1000 --image-name=mybinder . \
-          && docker run -e OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }} mybinder /bin/bash -c "source ~/.bashrc && jupyter notebook"
+          && docker run -e OPENAI_API_KEY=${{ secrets.JUPYTER_AI_API_KEY }} mybinder /bin/bash -c "source ~/.bashrc && jupyter notebook"
