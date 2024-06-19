@@ -1,4 +1,0 @@
-# postBuild
-
-# Install jupyter-ai
-pip install jupyter-ai
