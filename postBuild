@@ -1,12 +1,26 @@
 # postBuild
 
-# Create jupyter_ai_config.yml with default settings
-echo "openai:" >> jupyter_ai_config.yml
-echo "  default_llm: openai:gpt-3.5-turbo" >> jupyter_ai_config.yml
-echo "  default_embedding_model: openai:embed-gpt-3.5-turbo" >> jupyter_ai_config.yml
+echo "Processing config.json..."
+python - <<EOF
+import json
+from jupyter_ai_magics import config
+
+# Read and apply configurations from config.json
+with open('config.json', 'r') as f:
+    config_data = json.load(f)
+
+for key, value in config_data.items():
+    if key == "openai":
+        config.default_llm = value.get("default_llm", "")
+        config.default_embedding_model = value.get("default_embedding_model", "")
+
+EOF
 
 # Debugging statement
-echo "jupyter_ai_config.yml created with default settings"
+echo "config.json processed"
+
+# Debugging statement
+echo "postBuild script executed"
 
 # Debugging statements
 echo "postBuild script executed"
