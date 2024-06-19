@@ -1,0 +1,14 @@
+# postBuild
+
+# Enable the jupyter-ai extension
+jupyter serverextension enable --py jupyter_ai
+jupyter nbextension install --py jupyter_ai --sys-prefix
+jupyter nbextension enable --py jupyter_ai --sys-prefix
+
+# Load jupyter_ai_config.py
+echo "Executing jupyter_ai_config.py"
+python jupyter_ai_config.py
+
+# Debugging statements
+echo "postBuild script executed"
+echo "OPENAI_API_KEY: $OPENAI_API_KEY"
