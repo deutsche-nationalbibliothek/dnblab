@@ -2,4 +2,4 @@
 # Ensure the start script is executable
 chmod +x .binder/start
 # Run the start script
-.binder/start
+./.binder/start
