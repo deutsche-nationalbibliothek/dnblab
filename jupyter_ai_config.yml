@@ -1,2 +1,2 @@
-AI-Extension:
+AiExtension:
   default_llm: openai-chat:gpt-4
