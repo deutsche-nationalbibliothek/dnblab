@@ -1,11 +1,7 @@
 {
     "AiExtension": {
         "model_parameters": {
-            "openai:gpt-3.5-turbo": {
-                "model_kwargs": {
-                    "maxTokens": 200
-                }
-            }
+            "openai-chat:gpt-4"
         }
     }
 }
