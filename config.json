@@ -1,7 +1,0 @@
-{
-    "AiExtension": {
-        "model_parameters": {
-            "openai-chat:gpt-4"
-        }
-    }
-}
