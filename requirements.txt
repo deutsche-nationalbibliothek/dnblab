@@ -32,3 +32,4 @@ huggingface_hub
 jupyter-ai-magics
 PyPDF2
 langchain-openai
+geopy
