@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><collection xmlns="http://www.loc.gov/MARC21/slim">
+  <record type="Bibliographic">
+    <leader>00000nam a2200000uc 4500</leader>
+    <controlfield tag="001">1043718966</controlfield>
+    <controlfield tag="008">131105s2010    gw |||||om||| 00||||eng  </controlfield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Muster, Petra</subfield>
+	  <subfield code="e">Verfasser</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Das ungeschriebene Buch</subfield>
+      <subfield code="b">Eine Geschichte von Titeln, Untertiteln und anderen Metadaten</subfield>
+	  <subfield code="c">von Petra Muster und Franz Müller; herausgegeben von Franz Müller und Inga Schmidt.</subfield>
+    </datafield>
+    <datafield tag="264" ind1="7" ind2=" ">
+      <subfield code="a">Atlantis</subfield>
+	  <subfield code="b">Imaginärer Verlag</subfield>
+	  <subfield code="c">2024</subfield>
+    </datafield>
+    <datafield tag="300" ind1="7" ind2=" ">
+      <subfield code="a">XXI, 999 Seiten</subfield>
+      <subfield code="b">Illustrationen</subfield>
+	  <subfield code="c">24 cm</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Müller, Franz Siegfried</subfield>
+	  <subfield code="e">Verfasser</subfield>
+	  <subfield code="e">Herausgeber</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Schmidt, Inga</subfield>
+	  <subfield code="e">Herausgeber</subfield>
+    </datafield>
+  </record>
+</collection>
