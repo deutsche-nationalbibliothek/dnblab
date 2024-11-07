@@ -4,7 +4,7 @@ pandas==2.1.0
 xlrd==2.0.1
 xlsxwriter==3.1.2
 SPARQLWrapper==1.8.5
-sickle==0.7.0
+sickle
 pymods==0.1.0
 polymatheia==0.1.1
 scipy==1.11.1
