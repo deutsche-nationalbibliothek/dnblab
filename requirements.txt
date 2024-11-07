@@ -6,7 +6,7 @@ xlsxwriter==3.1.2
 SPARQLWrapper==1.8.5
 #sickle
 #pymods==0.1.0
-polymatheia==0.1.1
+#polymatheia==0.1.1
 scipy==1.11.1
 seaborn==0.12.2
 beautifulsoup4==4.12.2
