@@ -31,6 +31,6 @@ jupyter-ai==1.1.0
 jupyter-ai-magics==1.1.0
 huggingface_hub==0.15.1
 PyPDF2==3.0.1
-langchain-openai==0.5.0
+langchain-openai==0.2.5
 geopy==2.4.1
 
