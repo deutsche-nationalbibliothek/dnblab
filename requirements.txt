@@ -28,6 +28,7 @@ tables
 pyarrow
 matplotlib
 jupyter-ai>=1.0,<2.0
+scikit-learn<1.2
 huggingface_hub
 jupyter-ai-magics
 PyPDF2
