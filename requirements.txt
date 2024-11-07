@@ -19,7 +19,7 @@ pydeck==0.8.0
 tweepy==4.14.0
 altair==5.0.1
 wget==3.2
-essentia==2.1
+essentia
 wordcloud==1.9.2
 gensim==4.3.1
 spacy==3.6.0
