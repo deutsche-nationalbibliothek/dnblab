@@ -24,7 +24,7 @@ wordcloud
 gensim
 spaCy
 #pyLDAvis
-tables
+#tables
 pyarrow
 matplotlib
 jupyter-ai>=1.0,<2.0
