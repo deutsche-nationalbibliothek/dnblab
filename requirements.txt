@@ -27,10 +27,10 @@ wordcloud
 tables
 #pyarrow
 matplotlib
-#jupyter-ai
-#jupyter-ai-magics
-#huggingface_hub
+jupyter-ai
+jupyter-ai-magics
+huggingface_hub
 PyPDF2
-#langchain-openai
+langchain-openai
 geopy
 
