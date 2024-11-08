@@ -19,7 +19,7 @@ pydeck
 #tweepy
 #altair
 wget
-#essentia
+essentia
 wordcloud
 #gensim
 #spacy
