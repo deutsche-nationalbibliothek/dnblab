@@ -21,11 +21,11 @@ pydeck
 wget
 #essentia
 wordcloud
-gensim
-spacy
+#gensim
+#spacy
 #pyLDAvis
 tables
-#pyarrow
+pyarrow
 matplotlib
 jupyter-ai
 jupyter-ai-magics
