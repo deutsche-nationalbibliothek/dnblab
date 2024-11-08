@@ -6,7 +6,7 @@ xlsxwriter
 SPARQLWrapper
 sickle
 pymods
-#polymatheia==0.1.1
+polymatheia
 scipy
 seaborn
 beautifulsoup4
