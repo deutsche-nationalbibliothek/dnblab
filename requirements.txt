@@ -21,8 +21,8 @@ pydeck
 wget
 #essentia
 wordcloud
-#gensim
-#spacy
+gensim
+spacy
 #pyLDAvis
 tables
 #pyarrow
