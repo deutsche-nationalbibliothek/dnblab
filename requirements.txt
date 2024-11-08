@@ -25,7 +25,7 @@ gensim
 spacy
 #pyLDAvis
 tables
-#pyarrow
+pyarrow
 matplotlib
 jupyter-ai
 jupyter-ai-magics
