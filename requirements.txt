@@ -33,3 +33,4 @@ huggingface_hub
 PyPDF2
 langchain-openai
 geopy
+numpy==1.23.5
