@@ -1,0 +1,95 @@
+Setname: Digitalisierte Inhaltsverzeichnisse	
+Beschreibung: Aktuell stellen wir rund 4,8 Millionen digitalisierte Inhaltsverzeichnisse mit über 9 Millionen Einzelseiten bereit, die über unseren Katalog genutzt werden können und die wir über die Datendienste zur freien Nachnutzung anbieten. S. a. Kataloganreicherung
+	
+Setname: Freie Netzpublikationen	
+Beschreibung: Mehr als 2.900.000 Objekte ohne Zugriffsbeschränkung aus Deutschland
+	
+Setname: Freie Online-Hochschulschriften
+Beschreibung: Mehr als 336.000 Online-Hochschulschriften ohne Zugriffsbeschränkung aus Deutschland
+	
+Setname: Hochschulschriften	
+Beschreibung: Metadaten von mehr als 1.585.000 abgelieferten Hochschulschriften
+	
+Setname: Deutsches Musikarchiv: freie digitale Noten	
+Beschreibung: Mehr als 3.300 digitale Noten
+	
+Setname: Deutsche Nationalbibliothek: Kunst, Architektur, Bauhaus 1918-1933	
+Beschreibung: Digitalisierte Werke aus Architektur, Design, Malerei und Druckkunst von 1918 bis 1933
+	
+Setname: Deutsche Nationalbibliothek: Technische Normen, Gütevorschriften und Lieferbedingungen	
+Beschreibung: Mehr als 18.000 Technische Normen, Gütevorschriften und Lieferbedingungen (TGL) der DDR von 1949 bis 1989
+	
+Setname: Deutsches Buch- und Schriftmuseum der Deutschen Nationalbibliothek: Buchhändlerportraits	
+Beschreibung: Mehr als 2.400 Bildnisse von Buchhändlern, Buchdruckern und Verlegern des 16. bis 20. Jahrhunderts
+	
+Setname: Deutsches Buch- und Schriftmuseum der Deutschen Nationalbibliothek: Nachlass Tschichold	
+Beschreibung: Mehr als 2.100 Digitalisate aus dem Arbeitsnachlass des Typografen Jan Tschichold
+
+Setname: Deutsches Buch- und Schriftmuseum der Deutschen Nationalbibliothek: Börsenblatt für den deutschen Buchhandel	
+Beschreibung: Über 14.500 gemeinfreie digitalisierte Hefte des Börsenblatts ab 1834
+	
+Setname: Deutsches Buch- und Schriftmuseum der Deutschen Nationalbibliothek: Wasserzeichensammlung	
+Beschreibung: Mehr als 17.000 gemeinfreie digitalisierte Wasserzeichenbelege (sowohl originale Papiere als auch Wasserzeichenreproduktionen) als Datenbasis für die Echtheitsprüfung sowie Herkunfts- und Altersbestimmung von Papieren (fortlaufende Ergänzung)
+
+Setname: Deutsches Exilarchiv 1933–1945: Exilpresse digital – Exilzeitschriften 1933 – 1945	
+Beschreibung: 100.000 Seiten aus 30 Titeln, die ein breites Spektrum der Exilpresse 1933-1945 repräsentieren
+	
+Setname: Deutsches Exilarchiv 1933–1945: Exilpresse digital – Artikel der Exilzeitschriften 1933 – 1945	
+Beschreibung: Mehr als 230.000 Artikel der Exilzeitschriften 1933-1945
+	
+Setname: Deutsches Exilarchiv 1933–1945: Exilpresse digital - La Otra Alemania und Aufbau	
+Beschreibung: 80.500 Artikel der Periodika „Das Andere Deutschland / La Otra Alemania“, Buenos Aires, 1939 - 1949, und „Aufbau / Reconstruction“, New York, 1934 – 1950
+	
+Setname: Deutsches Exilarchiv 1933–1945: Jüdische Periodika in NS-Deutschland	
+Beschreibung: Mehr als 1.400 Hefte von 26 in NS-Deutschland erschienenen jüdischen Periodika
+	
+Setname: Deutsches Exilarchiv 1933–1945: Artikel der Jüdischen Periodika in NS-Deutschland	
+Beschreibung: Mehr als 26.000 Artikel der Jüdischen Periodika in NS-Deutschland
+	
+Setname: Deutsches Exilarchiv 1933–1945: Monografien der Exilsammlungen der Deutschen Nationalbibliothek	
+Beschreibung: Gemeinfreie Digitalisate der Exilsammlungen
+
+Setname: Deutsches Exilarchiv 1933–1945: Zeitzeugen-Interviews unterschiedlicher Provenienz	
+Beschreibung: Sammlung der 40 frei verfügbaren Zeitzeugen-Interviews des Deutschen Exilarchivs 1933-1945 zusammen mit weiteren extern eingebundenen Archivobjekten
+	
+Setname: Deutsches Exilarchiv 1933–1945: Nachlass Perutz	
+Beschreibung: 1.600 frei verfügbare digitalisierte Lebensdokumente, Manuskripte und Briefe aus dem Nachlass des österreichischen Schriftstellers Leo Perutz (1882-1957), der 1938 nach Palästina flüchten musste.
+	
+Setname: Deutsches Exilarchiv 1933–1945: Teilnachlass Walter Meckauer	
+Beschreibung: Mehr als 900 frei verfügbare Kurzgeschichten aus dem Nachlass des deutsch-jüdischen Schriftstellers Walter Moritz Meckauer (1889-1966).
+
+Setname: Deutsches Exilarchiv 1933–1945: Flugblattsammlung	
+Beschreibung: Mehr als 2.000 Flugblätter, die zwischen 1939 und 1945 größtenteils in Deutschland verbreitet wurden
+
+Setname: Deutsches Exilarchiv 1933–1945: Archiv der American Guild for German Cultural Freedom / Deutsche Akademie der Künste und Wissenschaften im Exil	
+Beschreibung: Das Archiv umfasst 968 Personenmappen mit Fragebögen, Lebensläufen und Korrespondenzen aus vielen Orten der Welt sowie Sachakten, die die Verwaltungsarbeit und die Aktionen zur Spendenakquise der Exilorganisation umfassen. Das Set beinhaltet Metadaten zu mehr als 36.000 Objekten mit nur wenigen gemeinfreien Objekten. Für die physischen und digitalisierten Werke sind separate Datensätze im Set enthalten, die über das MARC21-Feld 776 miteinander verknüpft sind.
+
+Setname: Deutsche Nationalbibliothek: Deutschland Revolution 1918/19	
+Beschreibung: Mehr als 600 digitalisierte Quellen zur deutschen Revolution 1918/1919 und zur Nachkriegszeit
+
+Setname: Deutsche Nationalbibliothek: Sammlung Weltkrieg 1914-1918	
+Beschreibung: Mehr als 3.000 Bücher, Broschüren, Plakate und andere Einblattdrucke zum Weltkrieg 1914-1918 (fortlaufende Ergänzung)
+	
+Setname: Deutsche Nationalbibliothek: Deutscher Bühnenspielplan 1912-1943	
+Beschreibung: Mehr als 350 digitalisierte Hefte der Jahrgänge 1912-1943 mit Verzeichnis dramatischer und musikalischer Bühnenwerke.
+	
+Setname: Deutsche Nationalbibliothek: freie digitalisierte Wandtafeln 1912-1992	
+Beschreibung: Mehr als 1600 digitalisierte Wandtafeln aller Fachrichtungen für den Unterricht, genealogische Stammtafeln und Lehrtafeln sowie Informationsblätter für Studium und Beruf; das Set wird fortlaufend um weitere gemeinfreie Werke ergänzt
+
+Setname: Deutsche Nationalbibliothek: Romanheftserie Tom Shark: der König der Detektive	
+Beschreibung: Mehr als 530 digitalisierte Hefte der Heftromanserie Tom Shark ab 1929
+
+Setname: Deutsche Nationalbibliothek: Der Rauchwarenmarkt: Fachzeitung f. d. gesamte Rohfell-, Rauchwaren- und Pelzwirtschaft	
+Beschreibung: Mehr als 2.160 gemeinfreie Hefte von insgesamt 3.430 digitalisierten Heften und Beilagen der Zeitschrift „Der Rauchwarenmarkt“ (1913-1944)
+
+Setname: Deutsches Musikarchiv: freie digitalisierte Schellackplatten (Emil Berliner)	
+Beschreibung: Mehr als 1000 digitalisierte Schallplatten aus der ersten Produktionsphase Emil Berliners. Diese Schallplatten zählen zu den ältesten industriell hergestellten Schellackplatten (ca. 1890–1905).
+	
+Setname: Deutsches Musikarchiv: freie digitalisierte Schellackplatten	
+Beschreibung: Mehr als 350 digitalisierte Schellackplatten aus der Spezialsammlung MIZ DDR
+	
+Setname: Deutsches Musikarchiv: freie Kabarett-Kollektion	
+Beschreibung: Mehr als 80 digitalisierte Schellackplatten der virtuellen Ausstellung "Schmonzetten, Schmäh und Parodie"
+	
+Setname: Deutsches Musikarchiv: freie digitalisierte Phonographen-Walzen	
+Beschreibung: Mehr als 180 digitalisierte Phonographen-Walzen
