@@ -34,3 +34,4 @@ PyPDF2
 langchain-openai
 geopy
 numpy==1.23.5
+streamlit>=1.23.0
