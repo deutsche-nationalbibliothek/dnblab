@@ -1,4 +1,4 @@
-lxml>=4.5.2,<5.0.0
+lxml
 requests
 pandas
 xlrd
@@ -33,6 +33,6 @@ huggingface_hub
 PyPDF2
 langchain-openai
 geopy
-numpy>=1.25.0 #==1.23.5
+numpy==1.23.5
 streamlit>=1.23.0
 unicodedata2
