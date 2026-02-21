@@ -1,5 +1,4 @@
 lxml
-libxml2
 libxslt
 requests
 pandas
