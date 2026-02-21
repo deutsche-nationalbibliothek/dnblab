@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 from lxml import etree
 import pandas
-import unicodedata
+import unicodedata2 as unicodedata
 #from IPython.core.display import display, HTML
 
 st.set_page_config(page_title='DNB SRU-Demo')
