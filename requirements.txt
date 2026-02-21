@@ -35,3 +35,4 @@ langchain-openai
 geopy
 numpy==1.23.5
 streamlit>=1.23.0
+unicodedata2
