@@ -1,4 +1,4 @@
-lxml
+lxml==6.0.2
 requests
 pandas
 xlrd
