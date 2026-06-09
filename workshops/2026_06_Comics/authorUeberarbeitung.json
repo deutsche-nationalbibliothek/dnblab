@@ -1,0 +1,3538 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Johnson, Phillip Kennedy",
+          "Kennedy Johnson Phillip, Phillip Kennedy",
+          "Johnson Phillip Kennedy, Phillip Kennedy",
+          "Kennedy Johnson, Phillip"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Johnson, Phillip Kennedy"
+      },
+      {
+        "from": [
+          "Jones Joe͏̈lle, Joe͏̈lle",
+          "Jones Joëlle, Joëlle",
+          "Jones  Joëlle, Joëlle",
+          "Jones, Joelle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jones, Joe͏̈lle"
+      },
+      {
+        "from": [
+          "Abnett Dan, Dan",
+          "Abnett, Dan",
+          "Dan, Abnett"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Abnett, Dan"
+      },
+      {
+        "from": [
+          "V Ram, Ram",
+          "Ram V",
+          "Ram V, Ram"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ram V"
+      },
+      {
+        "from": [
+          "Thomas Brandon, Brandon",
+          "Brandon Thomas, Thomas",
+          "Thomas, Brandon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thomas, Brandon"
+      },
+      {
+        "from": [
+          "Seeley Tim, Tim",
+          "Seeley, Tim",
+          "Tim, Seeley"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Seeley, Tim"
+      },
+      {
+        "from": [
+          "Snyder, Scott",
+          "Snyder Scott, Scott",
+          "Scott, Snyder"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Snyder, Scott"
+      },
+      {
+        "from": [
+          "Der Spassdigga,, Der",
+          "Spassdigga, Der",
+          "Der Spassdigga, Der"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Spassdigga, Der"
+      },
+      {
+        "from": [
+          "Aaron, Jason",
+          "Jason, Aaron",
+          "Aaron Jason, Jason"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Aaron, Jason"
+      },
+      {
+        "from": [
+          "Thompson, Kelly",
+          "Thompson Kelly, Kelly",
+          "Kelly, Thompson"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thompson, Kelly"
+      },
+      {
+        "from": [
+          "Zdarsky, Chip",
+          "Zdarsky Chip, Chip",
+          "Chip, Zdarsky"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Zdarsky, Chip"
+      },
+      {
+        "from": [
+          "von Soisses, Cornelia",
+          "Soisses, Cornelia von"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Soisses, Cornelia von"
+      },
+      {
+        "from": [
+          "Smith, Kevin",
+          "Smith Kevin, Kevin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Smith, Kevin"
+      },
+      {
+        "from": [
+          "Orlando, Steve",
+          "Orlando Steve, Steve"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Orlando, Steve"
+      },
+      {
+        "from": [
+          "Milligan, Peter",
+          "Peter, Milligan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Milligan, Peter"
+      },
+      {
+        "from": [
+          "Scott, Cavan",
+          "Scott Cavan, Cavan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Scott, Cavan"
+      },
+      {
+        "from": [
+          "nominandum, Nomen",
+          "Nominandum, Nomen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nominandum, Nomen"
+      },
+      {
+        "from": [
+          "Nocenti Ann, Ann",
+          "Nocenti, Ann"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nocenti, Ann"
+      },
+      {
+        "from": [
+          "Murphy Sean, Sean",
+          "Murphy, Sean"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Murphy, Sean"
+      },
+      {
+        "from": [
+          "Soisses, Franz von",
+          "von Soisses, Franz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Soisses, Franz von"
+      },
+      {
+        "from": [
+          "Slott, Dan",
+          "Slott Dan, Dan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Slott, Dan"
+      },
+      {
+        "from": [
+          "Kelly, Collin",
+          "Kelly Collin, Collin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kelly, Collin"
+      },
+      {
+        "from": [
+          "-MINO-",
+          "MINO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MINO"
+      },
+      {
+        "from": [
+          "Spurrier, Simon",
+          "Spurrier Simon, Simon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Spurrier, Simon"
+      },
+      {
+        "from": [
+          "Garcia Kami, Kami",
+          "Garcia, Kami"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Garcia, Kami"
+      },
+      {
+        "from": [
+          "Howard Tini, Tini",
+          "Howard, Tini"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Howard, Tini"
+      },
+      {
+        "from": [
+          "Watters, Dan",
+          "Watters Dan, Dan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Watters, Dan"
+      },
+      {
+        "from": [
+          "Johns Geoff, Geoff",
+          "Johns, Geoff"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Johns, Geoff"
+      },
+      {
+        "from": [
+          "MacKay, Jed",
+          "Jed, MacKay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MacKay, Jed"
+      },
+      {
+        "from": [
+          "Arleston, Christophe",
+          "Christophe, Arleston"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Arleston, Christophe"
+      },
+      {
+        "from": [
+          "Tamaki Mariko, Mariko",
+          "Tamaki, Mariko"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tamaki, Mariko"
+      },
+      {
+        "from": [
+          "Parker Jeff, Jeff",
+          "Parker, Jeff"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Parker, Jeff"
+      },
+      {
+        "from": [
+          "Brubaker Ed, Ed",
+          "Brubaker, Ed"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brubaker, Ed"
+      },
+      {
+        "from": [
+          "Conner Amanda, Amanda",
+          "Conner, Amanda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Conner, Amanda"
+      },
+      {
+        "from": [
+          "Brown Chuck, Chuck",
+          "Brown, Chuck"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brown, Chuck"
+      },
+      {
+        "from": [
+          "Bidinger, Rolf",
+          "BIDINGER, ROLF"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bidinger, Rolf"
+      },
+      {
+        "from": [
+          "Aiya, Kyu",
+          "Aiya, Kyū"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Aiya, Kyū"
+      },
+      {
+        "from": [
+          "Percy, Benjamin",
+          "Percy Benjamin, Benjamin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Percy, Benjamin"
+      },
+      {
+        "from": [
+          "Sean, McKeever",
+          "McKeever, Sean"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "McKeever, Sean"
+      },
+      {
+        "from": [
+          "DeMatteis, J. M.",
+          "DeMatteis J. M., J. M."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DeMatteis, J. M."
+      },
+      {
+        "from": [
+          "Paul, Levitz",
+          "Levitz, Paul"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Levitz, Paul"
+      },
+      {
+        "from": [
+          "Rucka, Greg",
+          "Rucka Greg, Greg"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rucka, Greg"
+      },
+      {
+        "from": [
+          "Istin, Jean-Luc",
+          "Jean-Luc, Istin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Istin, Jean-Luc"
+      },
+      {
+        "from": [
+          "Scroggs Kirk, Kirk",
+          "Scroggs, Kirk"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Scroggs, Kirk"
+      },
+      {
+        "from": [
+          "Duggan, Gerry",
+          "Duggan Gerry, Gerry"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Duggan, Gerry"
+      },
+      {
+        "from": [
+          "Wolfram Amy, Amy",
+          "Wolfram, Amy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wolfram, Amy"
+      },
+      {
+        "from": [
+          "Ogeretsu Tanaka",
+          "Tanaka, Ogeretsu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tanaka, Ogeretsu"
+      },
+      {
+        "from": [
+          "Whitta Gary, Gary",
+          "Whitta, Gary"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Whitta, Gary"
+      },
+      {
+        "from": [
+          "Mader, Romy van",
+          "van Mader, Romy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mader, Romy van"
+      },
+      {
+        "from": [
+          "Wilson G. Willow, G. Willow",
+          "Wilson, G. Willow"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wilson, G. Willow"
+      },
+      {
+        "from": [
+          "Williamson Joshua, Joshua",
+          "Williamson, Joshua"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Williamson, Joshua"
+      },
+      {
+        "from": [
+          "SUOL",
+          "Suol"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Suol"
+      },
+      {
+        "from": [
+          "van Dannen, Funny",
+          "Dannen, Funny van"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dannen, Funny van"
+      },
+      {
+        "from": [
+          "Rehberg, Juergen von",
+          "von Rehberg, Juergen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rehberg, Juergen von"
+      },
+      {
+        "from": [
+          "McFarlane, Todd",
+          "McFarlane Todd, Todd"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "McFarlane, Todd"
+      },
+      {
+        "from": [
+          "Bechko, Corinna",
+          "Bechko Corinna, Corinna"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bechko, Corinna"
+      },
+      {
+        "from": [
+          "Onyebuchi, Tochi",
+          "Tochi, Onyebuchi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Onyebuchi, Tochi"
+      },
+      {
+        "from": [
+          "Yang, Gene Luen",
+          "Yang Gene Luen, Gene Luen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Yang, Gene Luen"
+      },
+      {
+        "from": [
+          "Disney, Walt",
+          "Walt Disney, Walt"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Disney, Walt"
+      },
+      {
+        "from": [
+          "Herper, C.",
+          "Herper, C:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Herper, C."
+      },
+      {
+        "from": [
+          "Russell Mark, Mark",
+          "Russell, Mark"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russell, Mark"
+      },
+      {
+        "from": [
+          "Ellis, Warren",
+          "Ellis Warren, Warren"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ellis, Warren"
+      },
+      {
+        "from": [
+          "Larry, Hama",
+          "Hama Larry, Larry"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Larry, Hama"
+      },
+      {
+        "from": [
+          "Moreci, Michael",
+          "Moreci Michael, Michael"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moreci, Michael"
+      },
+      {
+        "from": [
+          "Bendis, Brian Michael",
+          "Bendis Brian Michael, Brian Michael"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bendis, Brian Michael"
+      },
+      {
+        "from": [
+          "Starlin Jim, Jim",
+          "Starlin, Jim"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Starlin, Jim"
+      },
+      {
+        "from": [
+          "BATLER, JAMES THOMAS",
+          "THOMAS BATLER, JAMES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BATLER, JAMES THOMAS"
+      },
+      {
+        "from": [
+          "Lemire, Jeff",
+          "Lemire Jeff, Jeff"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lemire, Jeff"
+      },
+      {
+        "from": [
+          "Cantwell, Christopher",
+          "Christopher, Cantwell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cantwell, Christopher"
+      },
+      {
+        "from": [
+          "Kato, Yuichi",
+          "Katō, Yūichi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Katō, Yūichi"
+      },
+      {
+        "from": [
+          "Leon, Eli Marcos M.",
+          "M. Leon, Eli Marcos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leon, Eli Marcos M."
+      },
+      {
+        "from": [
+          "Kleinschluck Tunichpferd",
+          "Tunichpferd, Kleinschluck"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tunichpferd, Kleinschluck"
+      },
+      {
+        "from": [
+          "Young, Skottie",
+          "Skottie, Young"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Skottie, Young"
+      },
+      {
+        "from": [
+          "Kirkman, Robert",
+          "Robert, Kirkman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kirkman, Robert"
+      },
+      {
+        "from": [
+          "Cates, Donny",
+          "Donny, Cates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cates, Donny"
+      },
+      {
+        "from": [
+          "Sorgo, Claudio Valentino",
+          "Claudio Valentino, Sorgo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sorgo, Claudio Valentino"
+      },
+      {
+        "from": [
+          "Moench Doug, Doug",
+          "Moench, Doug"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moench, Doug"
+      },
+      {
+        "from": [
+          "Moore, Alan",
+          "Moore Alan, Alan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moore, Alan"
+      },
+      {
+        "from": [
+          "De Jongh, Aimée",
+          "Jongh, Aimée de"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jongh, Aimée de"
+      },
+      {
+        "from": [
+          "Seen, Dias",
+          "Dias, Seen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Seen, Dias"
+      },
+      {
+        "from": [
+          "Bermejo Lee, Lee",
+          "Bermejo, Lee"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bermejo, Lee"
+      },
+      {
+        "from": [
+          "Pelaez, Philippe",
+          "Philippe, Pelaez"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pelaez, Philippe"
+      },
+      {
+        "from": [
+          "Lanzing, Jackson",
+          "Jackson, Lanzing"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lanzing, Jackson"
+      },
+      {
+        "from": [
+          "Ennis, Garth",
+          "Ennis Garth, Garth"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ennis, Garth"
+      },
+      {
+        "from": [
+          "Swolfs, Yves",
+          "Yves, Swolfs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Swolfs, Yves"
+      },
+      {
+        "from": [
+          "Tomm-Bub (M.A.), Burkhard",
+          "Tomm-Bub, M.A., Burkhard"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tomm-Bub (M.A.), Burkhard"
+      },
+      {
+        "from": [
+          "Humphries Sam, Sam",
+          "Humphries, Sam"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Humphries, Sam"
+      },
+      {
+        "from": [
+          "Brisson, Ed",
+          "Brisson Ed, Ed"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brisson, Ed"
+      },
+      {
+        "from": [
+          "Bocquet, Olivier",
+          "Olivier, Bocquet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bocquet, Olivier"
+      },
+      {
+        "from": [
+          "Kelly, Joe",
+          "Joe, Kelly"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kelly, Joe"
+      },
+      {
+        "from": [
+          "Kästner, Erich",
+          "Erich, Kästner"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kästner, Erich"
+      },
+      {
+        "from": [
+          "Loeb Jeph, Jeph",
+          "Loeb, Jeph"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Loeb, Jeph"
+      },
+      {
+        "from": [
+          "sora",
+          "Sora"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sora"
+      },
+      {
+        "from": [
+          "Simone, Gail",
+          "Simone Gail, Gail"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Simone, Gail"
+      },
+      {
+        "from": [
+          "Mignola Mike, Mike",
+          "Mignola, Mike"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mignola, Mike"
+      },
+      {
+        "from": [
+          "Waid Mark, Mark",
+          "Waid, Mark"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Waid, Mark"
+      },
+      {
+        "from": [
+          "Buccellato Brian, Brian",
+          "Buccellato, Brian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Buccellato, Brian"
+      },
+      {
+        "from": [
+          "Tieri Frank, Frank",
+          "Tieri, Frank"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tieri, Frank"
+      },
+      {
+        "from": [
+          "Kurt, Busiek",
+          "Busiek, Kurt"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Busiek, Kurt"
+      },
+      {
+        "from": [
+          "Thompson, Robbie",
+          "Thompson Robbie, Robbie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thompson, Robbie"
+      },
+      {
+        "from": [
+          "Hill Joe, Joe",
+          "Hill, Joe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hill, Joe"
+      },
+      {
+        "from": [
+          "Morrison Grant, Grant",
+          "Morrison, Grant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Morrison, Grant"
+      },
+      {
+        "from": [
+          "d'Andréa, Lison",
+          "d’Andréa, Lison"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "d'Andréa, Lison"
+      },
+      {
+        "from": [
+          "Brian M., Bendis",
+          "Bendis Brian M., Brian M."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brian M., Bendis"
+      },
+      {
+        "from": [
+          "Taylor Tom, Tom",
+          "Taylor, Tom"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Taylor, Tom"
+      },
+      {
+        "from": [
+          "Hickman, Jonathan",
+          "Jonathan, Hickman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hickman, Jonathan"
+      },
+      {
+        "from": [
+          "Azzarello Brian, Brian",
+          "Azzarello, Brian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Azzarello, Brian"
+      },
+      {
+        "from": [
+          "Miller, Frank",
+          "Miller Frank, Frank"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Miller, Frank"
+      },
+      {
+        "from": [
+          "King Tom, Tom",
+          "King, Tom"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "King, Tom"
+      },
+      {
+        "from": [
+          "Vaughan, Brian K.",
+          "Vaughan Brian K., Brian K."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vaughan, Brian K."
+      },
+      {
+        "from": [
+          "CHIBA, Kozue",
+          "Chiba, Kozue"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chiba, Kozue"
+      },
+      {
+        "from": [
+          "Tynion IV James, James Tynion",
+          "Tynion IV, James"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tynion IV, James"
+      },
+      {
+        "from": [
+          "Ridley John, John",
+          "Ridley, John"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ridley, John"
+      },
+      {
+        "from": [
+          "DeConnick Kelly Sue, Kelly Sue",
+          "Sue DeConnick, Kelly"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sue DeConnick, Kelly"
+      },
+      {
+        "from": [
+          "Lilah, Sturges",
+          "Sturges, Lilah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sturges, Lilah"
+      },
+      {
+        "from": [
+          "Peterson Scott, Scott",
+          "Peterson, Scott"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peterson, Scott"
+      },
+      {
+        "from": [
+          "Peyo; Jost, Alain",
+          "Peyo, Alain Jost"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peyo, Alain Jost"
+      },
+      {
+        "from": [
+          "Pichetshote Pornsak, Pornsak",
+          "Pichetshote, Pornsak"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pichetshote, Pornsak"
+      },
+      {
+        "from": [
+          "Spencer, Nick",
+          "Nick, Spencer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Spencer, Nick"
+      },
+      {
+        "from": [
+          "Cloonan Becky, Becky",
+          "Cloonan, Becky"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cloonan, Becky"
+      },
+      {
+        "from": [
+          "Reumont, Frederik von",
+          "von Reumont, Frederik"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Reumont, Frederik von"
+      },
+      {
+        "from": [
+          "David, Peter",
+          "Peter, David"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "David, Peter"
+      },
+      {
+        "from": [
+          "Bussi, Michel",
+          "Michel, Bussi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bussi, Michel"
+      },
+      {
+        "from": [
+          "Wodehouse, P. G.",
+          "P. G. Wodehouse, P. G."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wodehouse, P. G."
+      },
+      {
+        "from": [
+          "Haji",
+          "haji"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Haji"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Rosenberg Matthew, Matthew",
+          "Rosenberg, Matthew"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rosenberg, Matthew"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Wells, H.G.",
+          "Wells, H. G."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wells, H.G."
+      },
+      {
+        "from": [
+          "Kelly, Collin",
+          "Kelly, Colin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kelly, Collin"
+      },
+      {
+        "from": [
+          "Yang, Gene Luen",
+          "Yang, Gene Luene"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Yang, Gene Luen"
+      },
+      {
+        "from": [
+          "Tatuschka",
+          "Tatuschka, T."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tatuschka"
+      },
+      {
+        "from": [
+          "Plauen, E. O.",
+          "plauen, e.o."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plauen, E. O."
+      },
+      {
+        "from": [
+          "Wilde, Lukas R. A.",
+          "Wilde, Lukas R.A."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wilde, Lukas R. A."
+      },
+      {
+        "from": [
+          "Tomm-Bub (M.A.), Burkhard",
+          "Tomm-Bub, M. A., Burkhard"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tomm-Bub (M.A.), Burkhard"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Robinson, James Dale",
+          "Robinson, James"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Robinson, James Dale"
+      },
+      {
+        "from": [
+          "Kosumii, Fujiko",
+          "Kosumi, Fujiko"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kosumii, Fujiko"
+      },
+      {
+        "from": [
+          "Seeley, Tim",
+          "Seeley, Tom"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Seeley, Tim"
+      },
+      {
+        "from": [
+          "Fisch Sholly, Sholly",
+          "Fish Sholly, Sholly"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fish, Sholly"
+      },
+      {
+        "from": [
+          "Williges, Fabian",
+          "Williges, Fabian W."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Williges, Fabian W."
+      },
+      {
+        "from": [
+          "Mannheim, Bernhard",
+          "Mannheim, Bernard"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mannheim, Bernhard"
+      },
+      {
+        "from": [
+          "Johnson, Phillip Kennedy",
+          "Johnson, Phillip K."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Johnson, Phillip Kennedy"
+      },
+      {
+        "from": [
+          "Garcia, Kami",
+          "Garcia, Kimi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Garcia, Kami"
+      },
+      {
+        "from": [
+          "Weigand-Schoenherr, Alexander",
+          "Weigand-Schönherr, Alexander"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Weigand-Schönherr, Alexander"
+      },
+      {
+        "from": [
+          "Kosznitzki, Volker",
+          "Kosznitzki, Voler"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kosznitzki, Volker"
+      },
+      {
+        "from": [
+          "Ogawa, Chise",
+          "OgawaI, Chise"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ogawa, Chise"
+      },
+      {
+        "from": [
+          "Straczynski, Joseph Michael",
+          "Straczynski, J. Michael"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Straczynski, Joseph Michael"
+      },
+      {
+        "from": [
+          "Nishimoto, Rou",
+          "Nishimoto, Rō"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nishimoto, Rō"
+      },
+      {
+        "from": [
+          "Petersen - Clausen, Marcus PC",
+          "Petersen-Clasen, Marcus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Petersen-Clasen, Marcus"
+      },
+      {
+        "from": [
+          "Priest Christopher, Christopher",
+          "Priest, Christopher J."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Priest, Christopher J."
+      },
+      {
+        "from": [
+          "Schoenherr, Alexander Weigand",
+          "Schönherr, Alexander Weigand"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Schönherr-Weigand, Alexander "
+      },
+      {
+        "from": [
+          "O&#39;Droma, Alpha",
+          "O'Droma, Alpha"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "O'Droma, Alpha"
+      },
+      {
+        "from": [
+          "Dalla Santa, Giuseppe",
+          "Della Santa, Giuseppe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Della Santa, Giuseppe"
+      },
+      {
+        "from": [
+          "Wolfman Marv, Marv",
+          "Wolfmann Marv, Marv"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wolfman, Marv"
+      },
+      {
+        "from": [
+          "Winterberg, Emma-Johanna",
+          "Winterberg, Emma-Johann"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Winterberg, Emma-Johanna"
+      },
+      {
+        "from": [
+          "Pastrovicchio, Alessandro",
+          "Postrovicchio, Alessandro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pastrovicchio, Alessandro"
+      },
+      {
+        "from": [
+          "Huber, Christian",
+          "Huber, Christian Pokerbeats"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Huber, Christian"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Claremont, Chris",
+          "Claremon, Chris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Claremont, Chris"
+      },
+      {
+        "from": [
+          "Blasco, Serena",
+          "Blaco, Serena"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Blasco, Serena"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Howard, Robert E.",
+          "Howard, Robert Ervin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Howard, Robert Ervin"
+      },
+      {
+        "from": [
+          "Blutwurz-Recht, Kreszenzia",
+          "Recht, Kreszenzia Blutwurz-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Blutwurz-Recht, Kreszenzia"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "- Antonio, Taru"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Antonio, Taru"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "(Hrsg.), Jorge Nicolás Sanchez Rodriguez"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jorge Nicolás Sanchez Rodriguez"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Akira Toriyama (Original Story), Akira Toriyama (Original"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Akira Toriyama "
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Asamiya Kia, Kia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asamiya, Kia"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Barr Mike W., Mike W."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Barr, Mike W."
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Beechen Adam, Adam"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beechen, Adam"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Birgit Zamberger, Birgit"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Zamberger, Birgit"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Büdingen, Angela von"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Büdingen, Angela von"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Campbell Josie, Josie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Campbell, Josie"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chamier, Angelika von"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chamier, Angelika von"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Christian Enner, Christian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Enner, Christian"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Conrad Michael W., Michael W."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Conrad, Michael W."
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Corey, James S. A."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Corey, James"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Corson Heath, Heath"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Corson, Heath"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Das neue Frankfurter Schulorchester, Das neue Frankfurter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Das neue Frankfurter Schulorchester"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "David Rob, Rob"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "David, Rob"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "de la Cruz Melissa, Melissa de la"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "de la Cruz, Melissa"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Disney"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Disney, Walt"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Company, The Walt Disney"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Disney, Walt"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dixon Chuck, Chuck"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dixon, Chuck"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Evanier Mark, Mark"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Evanier, Mark"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Franklin Tee, Tee"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Franklin, Tee"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fridolfs Derek, Derek"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fridolfs, Derek"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gage Christos N., Christos N."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gage, Christos N."
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gage, Christos N."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gage, Christos"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gaiman, N."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gaiman, Neil"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gibbs Stuart, Stuart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gibbs, Stuart"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Groot, Bob de"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Groot, Bob de"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hall, A. Oakey (Abraham Oakey)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hall, Abraham Oakey"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Halse Anderson Laurie, Laurie Halse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Anderson, Laurie Halse"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Honoré de Balzac, Honoré de"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Balzac, Honoré de"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Jan-Mikael Teuner, Jan-Mikael"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Teuner, Jan-Mikael"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Jean-Pierre, Pécau"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pécau, Jean-Pierre "
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Johnson-McGoldrick David L., David L."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Johnson-McGoldrick, David L."
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Keplinger Kody, Kody"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Keplinger, Kody"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kiya,,Shii, Shii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kiya, Shii"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Manning Matthew K., Matthew K."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Manning, Matthew K."
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Marr Melissa, Melissa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marr, Melissa"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Palmiotti Jimmy, Jimmy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Palmiotti, Jimmy"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phillips Stephanie, Stephanie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phillips, Stephanie"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Poelgeest, Darcy van"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Poelgeest, Darcy van"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Porter Kenny, Kenny"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Porter, Kenny"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Recchioni Roberto, Roberto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Recchioni, Roberto"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Robertson Darick, Darick"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Robertson, Darick"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Rübsaat, Hrsg.  Gitta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rübsaat, Gitta"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Schierling, Richard von"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Schierling, Richard von"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Templeton Tv, Tv"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Templeton, Ty"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Templeton Ty, Ty"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Templeton, Ty"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Thorne Geoffrey, Geoffrey"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thorne, Geoffrey"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Torres Joseph, Joseph"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Torres, Joseph"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Valentine Genevieve, Genevieve"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Valentine, Genevieve"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Veitch Rick, Rick"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Veitch, Rick"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Venditti Robert, Robert"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Venditti, Robert"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vries, Michael de"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vries, Michael de"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Willamson Joshua, Joshua"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Willamson, Joshua"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Williams Stephanie, Stephanie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Williams, Stephanie"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Willamson, Joshua"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Williamson, Joshua"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Wilson Scott Bryan, Scott Bryan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wilson, Scott Bryan"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Winterfeld, Adolf von"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Winterfeld, Adolf von"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Youers Rio, Rio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Youers, Rio"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Adams Neal, Neal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Adams, Neal"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Axelrod Jadzia, Jadzia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Axelrod, Jadzia"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ayala Vita, Vita"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ayala, Vita"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Doran Colleen, Colleen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Doran, Colleen"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dr. Meuss, Gerhard"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Meuss, Gerhard Dr. "
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dr. Miriam Beblo, Prof."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beblo, Miriam Prof. Dr. "
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Easton Brandon, Brandon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Easton, Brandon"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Esposito Joey, Joey"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Esposito, Joey"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Finch David, David"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Finch, David"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Finger Bill, Bill"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Finge, Bill"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Finge, Bill"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Finger, Bill"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fisch Jolly, Jolly"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fisch, Jolly"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fish, Sholly"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fisch, Sholly"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fisch, Jolly"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fisch, Sholly"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fontana Shea, Shea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fontana, Shea"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Goodwin Archie, Archie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Goodwin, Archie"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hansen Dustin, Dustin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hansen, Dustin"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kati von Schwerin, Kati von"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Schwerin, Kati von"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kunert (Pseudonym), Joanne Marie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kunert, Joanne Marie"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kunkel Mike, Mike"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kunkel, Mike"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Lanning Andy, Andy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lanning, Andy"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Maas Sarah J., Sarah J."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Maas, Sarah J."
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Maines Nicole, Nicole"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Maines, Nicole"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Miller Bryan, Bryan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Miller, Bryan"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Nuhfer Heather, Heather"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nuhfer, Heather"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "O'Neil Dennis, Dennis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "O'Neil, Dennis"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Perez George, George"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Perez, George"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Random House, Random"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "House, Random"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sheridan Tim, Tim"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sheridan, Tim"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Stracynski, J.M."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Straczynski, Joseph Michael"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sträter Torsten, Torsten"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sträter, Torsten"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tamari Mariko, Mariko"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tamari, Mariko"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tomasi Peter J., Peter J."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tomasi, Peter J."
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tomasi, Peter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tomasi, Peter J."
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tomm-Bub (M.A.), Burkhard"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tomm-Bub, Burkhard"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ursus & Nadeschkin,, Ursus &."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ursus & Nadeschkin"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ward Christian, Christian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ward, Christian"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Wilde, Lukas R. A."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wilde, Lukas R. A."
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Wilde, Lukas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wilde, Lukas R. A."
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Winick Judd, Judd"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Winick, Judd"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "author",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Wolff, Hans W."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wolff, Hans Wolfgang"
+      }
+    ],
+    "description": "Mass edit cells in column author"
+  }
+]

@@ -1,0 +1,406 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "pub_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2020",
+          "2020; 2020",
+          "2020-",
+          "2020; 2020; 2020"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2020"
+      },
+      {
+        "from": [
+          "2018",
+          "2018; 2018",
+          "2018; 2018; 2018; 2018",
+          "2018; 2018; 2018"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2018"
+      },
+      {
+        "from": [
+          "2016",
+          "2016; 2016",
+          "2016; 2016; 2016",
+          "[2016]-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2016"
+      },
+      {
+        "from": [
+          "2012",
+          "2012; 2012",
+          "2012; 2012; 2012"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2012"
+      },
+      {
+        "from": [
+          "2009",
+          "2009; 2009",
+          "2009; 2009; 2009"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2009"
+      },
+      {
+        "from": [
+          "2026",
+          "2026; 2026",
+          "2026; 2026; 2026"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2026"
+      },
+      {
+        "from": [
+          "2025",
+          "2025; 2025",
+          "2025; 2025; 2025"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2025"
+      },
+      {
+        "from": [
+          "2024",
+          "2024; 2024",
+          "2024; 2024; 2024"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2024"
+      },
+      {
+        "from": [
+          "2023",
+          "2023; 2023",
+          "2023; 2023; 2023"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2023"
+      },
+      {
+        "from": [
+          "2021",
+          "2021; 2021",
+          "2021; 2021; 2021"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2021"
+      },
+      {
+        "from": [
+          "2019",
+          "2019; 2019",
+          "2019-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2019"
+      },
+      {
+        "from": [
+          "2011",
+          "2011; 2011; 2011"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2011"
+      },
+      {
+        "from": [
+          "2010",
+          "2010; 2010"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2010"
+      },
+      {
+        "from": [
+          "2006",
+          "2006; 2006"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2006"
+      },
+      {
+        "from": [
+          "2004",
+          "2004; 2004; 2004"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2004"
+      },
+      {
+        "from": [
+          "2003",
+          "2003; 2003; 2003"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2003"
+      },
+      {
+        "from": [
+          "2002",
+          "2002; 2002"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2002"
+      },
+      {
+        "from": [
+          "2022",
+          "2022; 2022"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2022"
+      },
+      {
+        "from": [
+          "2017",
+          "2017; 2017"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2017"
+      },
+      {
+        "from": [
+          "2015",
+          "2015; 2015"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2015"
+      },
+      {
+        "from": [
+          "2014",
+          "2014; 2014"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2014"
+      },
+      {
+        "from": [
+          "2013",
+          "2013; 2013"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2013"
+      }
+    ],
+    "description": "Mass edit cells in column pub_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "pub_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1985; 1985"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1985"
+      }
+    ],
+    "description": "Mass edit cells in column pub_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "pub_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1986; 1986"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1986"
+      }
+    ],
+    "description": "Mass edit cells in column pub_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "pub_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1988; 1988"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1988"
+      }
+    ],
+    "description": "Mass edit cells in column pub_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "pub_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1989; 1989"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1989; 1989"
+      }
+    ],
+    "description": "Mass edit cells in column pub_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "pub_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1989; 1989"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1989"
+      }
+    ],
+    "description": "Mass edit cells in column pub_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "pub_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1990; 1990"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1990"
+      }
+    ],
+    "description": "Mass edit cells in column pub_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "pub_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1991; 1991"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1991"
+      }
+    ],
+    "description": "Mass edit cells in column pub_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "pub_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1993; 1993"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1993"
+      }
+    ],
+    "description": "Mass edit cells in column pub_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "pub_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2024; 2020; 2024"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2024"
+      }
+    ],
+    "description": "Mass edit cells in column pub_year"
+  }
+]
